@@ -1,2 +1,5 @@
+.eslintcache
 node_modules/
-static/
+static/*
+!static/*.png
+!static/*.ico
