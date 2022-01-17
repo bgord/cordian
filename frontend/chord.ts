@@ -3,6 +3,8 @@ import { Key } from "./key";
 class Chord {
   root: Key;
 
+  keys: Key[] = [];
+
   constructor(root: Key) {
     this.root = root;
   }
@@ -29,12 +31,9 @@ class Chord {
 }
 
 export class MajorTriad extends Chord {
-  build(): [Key, Key, Key] {
-    return [this.root, this.majorThird(), this.perfectFifth()];
-  }
-
-  format() {
-    return this.build().map((key) => key.format());
+  build() {
+    this.keys = [this.root, this.majorThird(), this.perfectFifth()];
+    return this;
   }
 
   name() {
@@ -43,12 +42,9 @@ export class MajorTriad extends Chord {
 }
 
 export class MinorTriad extends Chord {
-  build(): [Key, Key, Key] {
-    return [this.root, this.minorThird(), this.perfectFifth()];
-  }
-
-  format() {
-    return this.build().map((key) => key.format());
+  build() {
+    this.keys = [this.root, this.minorThird(), this.perfectFifth()];
+    return this;
   }
 
   name() {
@@ -57,12 +53,9 @@ export class MinorTriad extends Chord {
 }
 
 export class DiminishedTriad extends Chord {
-  build(): [Key, Key, Key] {
-    return [this.root, this.minorThird(), this.diminishedFifth()];
-  }
-
-  format() {
-    return this.build().map((key) => key.format());
+  build() {
+    this.keys = [this.root, this.minorThird(), this.diminishedFifth()];
+    return this;
   }
 
   name() {
@@ -71,12 +64,9 @@ export class DiminishedTriad extends Chord {
 }
 
 export class AugmentedTriad extends Chord {
-  build(): [Key, Key, Key] {
-    return [this.root, this.majorThird(), this.augmentedFifth()];
-  }
-
-  format() {
-    return this.build().map((key) => key.format());
+  build() {
+    this.keys = [this.root, this.majorThird(), this.augmentedFifth()];
+    return this;
   }
 
   name() {
