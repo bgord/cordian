@@ -4,9 +4,10 @@ import { useList } from "./use-list";
 
 import { Key } from "./key";
 import { Triads } from "./triads";
+import { SeventhChords } from "./seventh-chords";
 
 function App() {
-  const [[selectedkey], actions] = useList<Key["value"]>({
+  const [[selectedKey], actions] = useList<Key["value"]>({
     updaterFn: (_, payload) => {
       if (Array.isArray(payload)) return [payload[0]];
       return [payload];
@@ -24,7 +25,7 @@ function App() {
               <button
                 class="c-button"
                 data-variant={
-                  key.value === selectedkey ? "primary" : "secondary"
+                  key.value === selectedKey ? "primary" : "secondary"
                 }
                 onClick={() => actions.toggle(key.value)}
                 style="min-width: 45px"
@@ -36,7 +37,7 @@ function App() {
         })}
       </ul>
 
-      {selectedkey !== undefined && (
+      {selectedKey !== undefined && (
         <div data-ml="24" data-mt="48">
           <h3
             data-transform="uppercase"
@@ -47,11 +48,14 @@ function App() {
           >
             Selected key:{" "}
             <strong data-fs="16" data-color="black">
-              {Key.format(selectedkey)}
+              {Key.format(selectedKey)}
             </strong>
           </h3>
 
-          <Triads selectedKey={selectedkey} />
+          <section data-display="flex">
+            <Triads selectedKey={selectedKey} />
+            <SeventhChords selectedKey={selectedKey} />
+          </section>
         </div>
       )}
     </main>

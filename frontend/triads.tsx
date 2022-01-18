@@ -1,4 +1,4 @@
-import { h, Fragment } from "preact";
+import { h } from "preact";
 
 import { Key, KeyType } from "./key";
 
@@ -13,28 +13,33 @@ export function Triads(props: { selectedKey: KeyType }) {
   const key = new Key(props.selectedKey);
 
   return (
-    <Fragment>
-      <div data-mt="24">Triads</div>
+    <div data-mr="72">
+      <div data-mt="24" data-mb="12">
+        Triads
+      </div>
 
       <ul
         data-display="flex"
         data-direction="column"
-        data-mt="12"
+        data-bg="gray-200"
+        data-pt="12"
+        data-px="24"
+        data-pb="0"
         style="list-style: none"
       >
         {[MajorTriad, MinorTriad, DiminishedTriad, AugmentedTriad].map(
           (Triad) => {
-            const chord = new Triad(key).build();
+            const chord = new Triad(key);
 
             return (
-              <li data-display="flex" data-mb="24">
+              <li data-display="flex" data-main="between" data-mb="24">
                 <div>
                   {chord.keys.map((key) => (
                     <strong data-mr="6">{key.format()}</strong>
                   ))}
                 </div>
 
-                <small data-fs="14" data-ml="12">
+                <small data-fs="14" data-ml="24">
                   {chord.name()}
                 </small>
               </li>
@@ -42,6 +47,6 @@ export function Triads(props: { selectedKey: KeyType }) {
           }
         )}
       </ul>
-    </Fragment>
+    </div>
   );
 }
