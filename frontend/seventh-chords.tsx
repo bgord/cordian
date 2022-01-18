@@ -1,6 +1,6 @@
 import { h } from "preact";
 
-import { Key, KeyType } from "./key";
+import { Note, NoteType } from "./note";
 
 import {
   MajorSeventh,
@@ -12,8 +12,8 @@ import {
   AugmentedMajorSeventh,
 } from "./chord";
 
-export function SeventhChords(props: { selectedKey: KeyType }) {
-  const key = new Key(props.selectedKey);
+export function SeventhChords(props: { selectedNote: NoteType }) {
+  const note = new Note(props.selectedNote);
 
   return (
     <div>
@@ -39,13 +39,13 @@ export function SeventhChords(props: { selectedKey: KeyType }) {
           DiminishedSeventh,
           AugmentedMajorSeventh,
         ].map((SeventhChord) => {
-          const chord = new SeventhChord(key);
+          const chord = new SeventhChord(note);
 
           return (
             <li data-display="flex" data-main="between" data-mb="24">
               <div>
-                {chord.keys.map((key) => (
-                  <strong data-mr="6">{key.format()}</strong>
+                {chord.notes.map((note) => (
+                  <strong data-mr="6">{note.format()}</strong>
                 ))}
               </div>
 

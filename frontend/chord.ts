@@ -1,35 +1,35 @@
-import { Key } from "./key";
+import { Note } from "./note";
 
-abstract class Chord {
-  root: Key;
+export abstract class Chord {
+  root: Note;
 
-  keys: Key[] = [];
+  notes: Note[] = [];
 
-  constructor(root: Key) {
+  constructor(root: Note) {
     this.root = root;
   }
 
-  majorThird(): Key {
+  majorThird(): Note {
     return this.root.wholestep().wholestep();
   }
 
-  minorThird(): Key {
+  minorThird(): Note {
     return this.root.wholestep().halfstep();
   }
 
-  perfectFifth(): Key {
+  perfectFifth(): Note {
     return this.root.wholestep().wholestep().wholestep().halfstep();
   }
 
-  diminishedFifth(): Key {
+  diminishedFifth(): Note {
     return this.root.wholestep().wholestep().wholestep();
   }
 
-  augmentedFifth(): Key {
+  augmentedFifth(): Note {
     return this.root.wholestep().wholestep().wholestep().wholestep();
   }
 
-  majorSeventh(): Key {
+  majorSeventh(): Note {
     return this.root
       .wholestep()
       .wholestep()
@@ -39,7 +39,7 @@ abstract class Chord {
       .halfstep();
   }
 
-  minorSeventh(): Key {
+  minorSeventh(): Note {
     return this.root
       .wholestep()
       .wholestep()
@@ -48,15 +48,17 @@ abstract class Chord {
       .wholestep();
   }
 
-  diminishedSeventh(): Key {
+  diminishedSeventh(): Note {
     return this.root.wholestep().wholestep().wholestep().wholestep().halfstep();
   }
+
+  abstract name(): string;
 }
 
 export class MajorTriad extends Chord {
-  constructor(root: Key) {
+  constructor(root: Note) {
     super(root);
-    this.keys = [this.root, this.majorThird(), this.perfectFifth()];
+    this.notes = [this.root, this.majorThird(), this.perfectFifth()];
   }
 
   name() {
@@ -65,9 +67,9 @@ export class MajorTriad extends Chord {
 }
 
 export class MinorTriad extends Chord {
-  constructor(root: Key) {
+  constructor(root: Note) {
     super(root);
-    this.keys = [this.root, this.minorThird(), this.perfectFifth()];
+    this.notes = [this.root, this.minorThird(), this.perfectFifth()];
   }
 
   name() {
@@ -76,9 +78,9 @@ export class MinorTriad extends Chord {
 }
 
 export class DiminishedTriad extends Chord {
-  constructor(root: Key) {
+  constructor(root: Note) {
     super(root);
-    this.keys = [this.root, this.minorThird(), this.diminishedFifth()];
+    this.notes = [this.root, this.minorThird(), this.diminishedFifth()];
   }
 
   name() {
@@ -87,9 +89,9 @@ export class DiminishedTriad extends Chord {
 }
 
 export class AugmentedTriad extends Chord {
-  constructor(root: Key) {
+  constructor(root: Note) {
     super(root);
-    this.keys = [this.root, this.majorThird(), this.augmentedFifth()];
+    this.notes = [this.root, this.majorThird(), this.augmentedFifth()];
   }
 
   name() {
@@ -98,9 +100,9 @@ export class AugmentedTriad extends Chord {
 }
 
 export class MajorSeventh extends Chord {
-  constructor(root: Key) {
+  constructor(root: Note) {
     super(root);
-    this.keys = [
+    this.notes = [
       this.root,
       this.majorThird(),
       this.perfectFifth(),
@@ -114,9 +116,9 @@ export class MajorSeventh extends Chord {
 }
 
 export class MinorSeventh extends Chord {
-  constructor(root: Key) {
+  constructor(root: Note) {
     super(root);
-    this.keys = [
+    this.notes = [
       this.root,
       this.minorThird(),
       this.perfectFifth(),
@@ -130,9 +132,9 @@ export class MinorSeventh extends Chord {
 }
 
 export class DominantSeventh extends Chord {
-  constructor(root: Key) {
+  constructor(root: Note) {
     super(root);
-    this.keys = [
+    this.notes = [
       this.root,
       this.majorThird(),
       this.perfectFifth(),
@@ -146,9 +148,9 @@ export class DominantSeventh extends Chord {
 }
 
 export class MinorMajorSeventh extends Chord {
-  constructor(root: Key) {
+  constructor(root: Note) {
     super(root);
-    this.keys = [
+    this.notes = [
       this.root,
       this.minorThird(),
       this.perfectFifth(),
@@ -162,9 +164,9 @@ export class MinorMajorSeventh extends Chord {
 }
 
 export class HalfDiminishedSeventh extends Chord {
-  constructor(root: Key) {
+  constructor(root: Note) {
     super(root);
-    this.keys = [
+    this.notes = [
       this.root,
       this.minorThird(),
       this.diminishedFifth(),
@@ -178,9 +180,9 @@ export class HalfDiminishedSeventh extends Chord {
 }
 
 export class DiminishedSeventh extends Chord {
-  constructor(root: Key) {
+  constructor(root: Note) {
     super(root);
-    this.keys = [
+    this.notes = [
       this.root,
       this.minorThird(),
       this.diminishedFifth(),
@@ -194,9 +196,9 @@ export class DiminishedSeventh extends Chord {
 }
 
 export class AugmentedMajorSeventh extends Chord {
-  constructor(root: Key) {
+  constructor(root: Note) {
     super(root);
-    this.keys = [
+    this.notes = [
       this.root,
       this.majorThird(),
       this.augmentedFifth(),

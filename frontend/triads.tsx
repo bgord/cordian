@@ -1,6 +1,6 @@
 import { h } from "preact";
 
-import { Key, KeyType } from "./key";
+import { Note, NoteType } from "./note";
 
 import {
   MajorTriad,
@@ -9,11 +9,11 @@ import {
   AugmentedTriad,
 } from "./chord";
 
-export function Triads(props: { selectedKey: KeyType }) {
-  const key = new Key(props.selectedKey);
+export function Triads(props: { selectedNote: NoteType }) {
+  const note = new Note(props.selectedNote);
 
   return (
-    <div data-mr="72">
+    <div>
       <div data-mt="24" data-mb="12">
         Triads
       </div>
@@ -29,13 +29,13 @@ export function Triads(props: { selectedKey: KeyType }) {
       >
         {[MajorTriad, MinorTriad, DiminishedTriad, AugmentedTriad].map(
           (Triad) => {
-            const chord = new Triad(key);
+            const chord = new Triad(note);
 
             return (
               <li data-display="flex" data-main="between" data-mb="24">
                 <div>
-                  {chord.keys.map((key) => (
-                    <strong data-mr="6">{key.format()}</strong>
+                  {chord.notes.map((note) => (
+                    <strong data-mr="6">{note.format()}</strong>
                   ))}
                 </div>
 

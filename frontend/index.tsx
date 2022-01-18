@@ -2,12 +2,14 @@ import { h, render } from "preact";
 
 import { useList } from "./use-list";
 
-import { Key } from "./key";
+import { Note } from "./note";
+
 import { Triads } from "./triads";
 import { SeventhChords } from "./seventh-chords";
+import { Keys } from "./keys";
 
 function App() {
-  const [[selectedKey], actions] = useList<Key["value"]>({
+  const [[selectedNote], actions] = useList<Note["value"]>({
     updaterFn: (_, payload) => {
       if (Array.isArray(payload)) return [payload[0]];
       return [payload];
@@ -17,27 +19,27 @@ function App() {
   return (
     <main>
       <ul data-display="flex" style="list-style: none">
-        {Key.notes.map((note) => {
-          const key = new Key(note);
+        {Note.notes.map((note) => {
+          const currentNote = new Note(note);
 
           return (
             <li data-m="24" data-mr="12">
               <button
                 class="c-button"
                 data-variant={
-                  key.value === selectedKey ? "primary" : "secondary"
+                  currentNote.value === selectedNote ? "primary" : "secondary"
                 }
-                onClick={() => actions.toggle(key.value)}
+                onClick={() => actions.toggle(currentNote.value)}
                 style="min-width: 45px"
               >
-                {key.format()}
+                {currentNote.format()}
               </button>
             </li>
           );
         })}
       </ul>
 
-      {selectedKey !== undefined && (
+      {selectedNote !== undefined && (
         <div data-ml="24" data-mt="48">
           <h3
             data-transform="uppercase"
@@ -46,15 +48,18 @@ function App() {
             data-fw="400"
             data-color="gray-700"
           >
-            Selected key:{" "}
+            Selected note:{" "}
             <strong data-fs="16" data-color="black">
-              {Key.format(selectedKey)}
+              {Note.format(selectedNote)}
             </strong>
           </h3>
 
           <section data-display="flex">
-            <Triads selectedKey={selectedKey} />
-            <SeventhChords selectedKey={selectedKey} />
+            <Triads selectedNote={selectedNote} />
+            <div data-mr="72" />
+            <SeventhChords selectedNote={selectedNote} />
+            <div data-mr="72" />
+            <Keys selectedNote={selectedNote} />
           </section>
         </div>
       )}
