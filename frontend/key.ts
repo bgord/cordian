@@ -3,18 +3,18 @@ import _ from "lodash";
 export type KeyType = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11;
 
 type KeyNameType =
-  | "c"
-  | "c#"
-  | "d"
-  | "d#"
-  | "e"
-  | "f"
-  | "f#"
-  | "g"
-  | "g#"
-  | "a"
-  | "a#"
-  | "b";
+  | "C"
+  | "C#"
+  | "D"
+  | "D#"
+  | "E"
+  | "F"
+  | "F#"
+  | "G"
+  | "G#"
+  | "A"
+  | "A#"
+  | "B";
 
 export class Key {
   value: KeyType;
@@ -43,18 +43,18 @@ export class Key {
 
   static format(value: KeyType): KeyNameType {
     const keyToKeyNameMap = new Map<KeyType, KeyNameType>();
-    keyToKeyNameMap.set(0, "c");
-    keyToKeyNameMap.set(1, "c#");
-    keyToKeyNameMap.set(2, "d");
-    keyToKeyNameMap.set(3, "d#");
-    keyToKeyNameMap.set(4, "e");
-    keyToKeyNameMap.set(5, "f");
-    keyToKeyNameMap.set(6, "f#");
-    keyToKeyNameMap.set(7, "g");
-    keyToKeyNameMap.set(8, "g#");
-    keyToKeyNameMap.set(9, "a");
-    keyToKeyNameMap.set(10, "a#");
-    keyToKeyNameMap.set(11, "b");
+    keyToKeyNameMap.set(0, "C");
+    keyToKeyNameMap.set(1, "C#");
+    keyToKeyNameMap.set(2, "D");
+    keyToKeyNameMap.set(3, "D#");
+    keyToKeyNameMap.set(4, "E");
+    keyToKeyNameMap.set(5, "F");
+    keyToKeyNameMap.set(6, "F#");
+    keyToKeyNameMap.set(7, "G");
+    keyToKeyNameMap.set(8, "G#");
+    keyToKeyNameMap.set(9, "A");
+    keyToKeyNameMap.set(10, "A#");
+    keyToKeyNameMap.set(11, "B");
 
     return keyToKeyNameMap.get(value) as KeyNameType;
   }

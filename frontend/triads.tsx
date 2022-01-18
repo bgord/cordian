@@ -30,7 +30,7 @@ export function Triads(props: { selectedKey: KeyType }) {
               <li data-display="flex" data-mb="24">
                 <div>
                   {chord.keys.map((key) => (
-                    <strong data-mr="6">{key.format().toUpperCase()}</strong>
+                    <strong data-mr="6">{key.format()}</strong>
                   ))}
                 </div>
 
