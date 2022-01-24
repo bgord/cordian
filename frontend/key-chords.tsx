@@ -29,7 +29,6 @@ export function KeyChords(props: { selectedNote: NoteType }) {
             <li
               data-display="flex"
               data-direction="column"
-              data-main="between"
               data-mb="24"
               data-mr="48"
             >
@@ -41,12 +40,12 @@ export function KeyChords(props: { selectedNote: NoteType }) {
 
                   return (
                     <Fragment>
-                      <div data-mb="6">
+                      <div data-display="flex" data-cross="center" data-mb="6">
                         <button
                           class="c-button"
                           onClick={details.toggle}
                           data-variant="bare"
-                          data-mr="12"
+                          data-mr="24"
                         >
                           {details.off && (
                             <img
@@ -69,6 +68,7 @@ export function KeyChords(props: { selectedNote: NoteType }) {
                           )}
                         </button>
 
+                        <div data-mr="12">{chord.order}</div>
                         <strong>{chord.name()}</strong>
                       </div>
 

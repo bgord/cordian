@@ -5,8 +5,11 @@ export abstract class Chord {
 
   notes: Note[] = [];
 
-  constructor(root: Note) {
+  order?: string;
+
+  constructor(root: Note, order?: string) {
     this.root = root;
+    this.order = order;
   }
 
   majorThird(): Note {
@@ -76,8 +79,8 @@ export abstract class Chord {
 }
 
 export class MajorTriad extends Chord {
-  constructor(root: Note) {
-    super(root);
+  constructor(root: Note, order?: string) {
+    super(root, order);
     this.notes = [this.root, this.majorThird(), this.perfectFifth()];
   }
 
@@ -87,8 +90,8 @@ export class MajorTriad extends Chord {
 }
 
 export class MinorTriad extends Chord {
-  constructor(root: Note) {
-    super(root);
+  constructor(root: Note, order?: string) {
+    super(root, order);
     this.notes = [this.root, this.minorThird(), this.perfectFifth()];
   }
 
@@ -98,8 +101,8 @@ export class MinorTriad extends Chord {
 }
 
 export class DiminishedTriad extends Chord {
-  constructor(root: Note) {
-    super(root);
+  constructor(root: Note, order?: string) {
+    super(root, order);
     this.notes = [this.root, this.minorThird(), this.diminishedFifth()];
   }
 
@@ -109,8 +112,8 @@ export class DiminishedTriad extends Chord {
 }
 
 export class AugmentedTriad extends Chord {
-  constructor(root: Note) {
-    super(root);
+  constructor(root: Note, order?: string) {
+    super(root, order);
     this.notes = [this.root, this.majorThird(), this.augmentedFifth()];
   }
 
@@ -120,8 +123,8 @@ export class AugmentedTriad extends Chord {
 }
 
 export class MajorSeventh extends Chord {
-  constructor(root: Note) {
-    super(root);
+  constructor(root: Note, order?: string) {
+    super(root, order);
     this.notes = [
       this.root,
       this.majorThird(),
@@ -136,8 +139,8 @@ export class MajorSeventh extends Chord {
 }
 
 export class MinorSeventh extends Chord {
-  constructor(root: Note) {
-    super(root);
+  constructor(root: Note, order?: string) {
+    super(root, order);
     this.notes = [
       this.root,
       this.minorThird(),
@@ -152,8 +155,8 @@ export class MinorSeventh extends Chord {
 }
 
 export class DominantSeventh extends Chord {
-  constructor(root: Note) {
-    super(root);
+  constructor(root: Note, order?: string) {
+    super(root, order);
     this.notes = [
       this.root,
       this.majorThird(),
@@ -168,8 +171,8 @@ export class DominantSeventh extends Chord {
 }
 
 export class MinorMajorSeventh extends Chord {
-  constructor(root: Note) {
-    super(root);
+  constructor(root: Note, order?: string) {
+    super(root, order);
     this.notes = [
       this.root,
       this.minorThird(),
@@ -184,8 +187,8 @@ export class MinorMajorSeventh extends Chord {
 }
 
 export class HalfDiminishedSeventh extends Chord {
-  constructor(root: Note) {
-    super(root);
+  constructor(root: Note, order?: string) {
+    super(root, order);
     this.notes = [
       this.root,
       this.minorThird(),
@@ -200,8 +203,8 @@ export class HalfDiminishedSeventh extends Chord {
 }
 
 export class DiminishedSeventh extends Chord {
-  constructor(root: Note) {
-    super(root);
+  constructor(root: Note, order?: string) {
+    super(root, order);
     this.notes = [
       this.root,
       this.minorThird(),
@@ -216,8 +219,8 @@ export class DiminishedSeventh extends Chord {
 }
 
 export class AugmentedMajorSeventh extends Chord {
-  constructor(root: Note) {
-    super(root);
+  constructor(root: Note, order?: string) {
+    super(root, order);
     this.notes = [
       this.root,
       this.majorThird(),
