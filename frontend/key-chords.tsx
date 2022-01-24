@@ -3,15 +3,15 @@ import { h, Fragment } from "preact";
 import { useToggle } from "./use-toggle";
 import { Note, NoteType } from "./note";
 
-import { MajorProgression, MinorProgression } from "./progression";
+import { MajorKeyChords, MinorKeyChords } from "./key-chord";
 
-export function Progressions(props: { selectedNote: NoteType }) {
+export function KeyChords(props: { selectedNote: NoteType }) {
   const note = new Note(props.selectedNote);
 
   return (
     <div>
       <div data-mt="24" data-mb="12">
-        Progressions
+        Key chords
       </div>
 
       <ul
@@ -22,8 +22,8 @@ export function Progressions(props: { selectedNote: NoteType }) {
         data-pb="0"
         style="list-style: none"
       >
-        {[MajorProgression, MinorProgression].map((Progression) => {
-          const progression = new Progression(note);
+        {[MajorKeyChords, MinorKeyChords].map((KeyChords) => {
+          const keyChords = new KeyChords(note);
 
           return (
             <li
@@ -33,10 +33,10 @@ export function Progressions(props: { selectedNote: NoteType }) {
               data-mb="24"
               data-mr="48"
             >
-              <small data-fs="14">{progression.name()}</small>
+              <small data-fs="14">{keyChords.name()}</small>
 
               <div data-display="flex" data-direction="column" data-mt="24">
-                {progression.chords.map((chord) => {
+                {keyChords.chords.map((chord) => {
                   const details = useToggle();
 
                   return (

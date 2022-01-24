@@ -7,7 +7,7 @@ import { Note } from "./note";
 import { Triads } from "./triads";
 import { SeventhChords } from "./seventh-chords";
 import { Keys } from "./keys";
-import { Progressions } from "./progressions";
+import { KeyChords } from "./key-chords";
 
 function App() {
   const [[selectedNote], actions] = useList<Note["value"]>({
@@ -62,7 +62,7 @@ function App() {
             <div data-mr="72" />
             <Keys selectedNote={selectedNote} />
             <div data-mr="72" />
-            <Progressions selectedNote={selectedNote} />
+            <KeyChords selectedNote={selectedNote} />
           </section>
         </div>
       )}

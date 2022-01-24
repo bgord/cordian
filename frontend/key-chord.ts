@@ -2,7 +2,7 @@ import { Note } from "./note";
 import { MajorKey, MinorKey } from "./key";
 import { Chord, MinorTriad, MajorTriad, DiminishedTriad } from "./chord";
 
-abstract class Progression {
+abstract class KeyChords {
   root: Note;
   chords: Chord[] = [];
 
@@ -13,7 +13,7 @@ abstract class Progression {
   abstract name(): string;
 }
 
-export class MajorProgression extends Progression {
+export class MajorKeyChords extends KeyChords {
   constructor(root: Note) {
     super(root);
 
@@ -29,11 +29,11 @@ export class MajorProgression extends Progression {
   }
 
   name() {
-    return `${this.root.format()} maj progression`;
+    return `${this.root.format()} maj key chords`;
   }
 }
 
-export class MinorProgression extends Progression {
+export class MinorKeyChords extends KeyChords {
   constructor(root: Note) {
     super(root);
 
@@ -49,6 +49,6 @@ export class MinorProgression extends Progression {
   }
 
   name() {
-    return `${this.root.format()} min progression`;
+    return `${this.root.format()} min key chords`;
   }
 }
