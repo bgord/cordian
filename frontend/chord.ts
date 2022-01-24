@@ -52,6 +52,26 @@ export abstract class Chord {
     return this.root.wholestep().wholestep().wholestep().wholestep().halfstep();
   }
 
+  firstInversion(): Note[] {
+    const [firstNote, ...rest] = this.notes;
+    return [...rest, firstNote];
+  }
+
+  secondInversion(): Note[] {
+    const [firstNote, secondNote, ...rest] = this.notes;
+    return [...rest, firstNote, secondNote];
+  }
+
+  thirdInversion(): Note[] {
+    const [firstNote, secondNote, thirdInversion, ...rest] = this.notes;
+
+    if (!Array.isArray(rest)) {
+      throw new Error(`Cannot get third inversion for chord ${this.name()}`);
+    }
+
+    return [...rest, firstNote, secondNote, thirdInversion];
+  }
+
   abstract name(): string;
 }
 
