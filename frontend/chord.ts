@@ -12,12 +12,20 @@ export abstract class Chord {
     this.order = order;
   }
 
+  majorSecond(): Note {
+    return this.root.wholestep();
+  }
+
   majorThird(): Note {
     return this.root.wholestep().wholestep();
   }
 
   minorThird(): Note {
     return this.root.wholestep().halfstep();
+  }
+
+  perfectFourth(): Note {
+    return this.root.wholestep().wholestep().halfstep();
   }
 
   perfectFifth(): Note {
@@ -119,6 +127,28 @@ export class AugmentedTriad extends Chord {
 
   name() {
     return `${this.root.format()}aug`;
+  }
+}
+
+export class Suspended2Triad extends Chord {
+  constructor(root: Note, order?: string) {
+    super(root, order);
+    this.notes = [this.root, this.majorSecond(), this.perfectFifth()];
+  }
+
+  name() {
+    return `${this.root.format()}sus2`;
+  }
+}
+
+export class Suspended4Triad extends Chord {
+  constructor(root: Note, order?: string) {
+    super(root, order);
+    this.notes = [this.root, this.perfectFourth(), this.perfectFifth()];
+  }
+
+  name() {
+    return `${this.root.format()}sus4`;
   }
 }
 
