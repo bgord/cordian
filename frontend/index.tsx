@@ -66,36 +66,6 @@ function App() {
           </section>
         </div>
       )}
-
-      <details data-ml="24">
-        <summary>Role of chords in a key</summary>
-        <ul data-ml="24">
-          <li data-mt="6">
-            I (tonic) - resolved, peaceful, every chord wants to move back there
-          </li>
-          <li data-mt="6">V (dominant) - unresolved, tenseful</li>
-        </ul>
-      </details>
-
-      <details data-ml="24">
-        <summary>Leading note</summary>
-        <p data-mt="6">A note just halfstep below the root note.</p>
-      </details>
-
-      <details data-ml="24">
-        <summary>Chord rhythm patterns</summary>
-
-        <ul>
-          <li>1 2 3 (playing chord notes separately)</li>
-        </ul>
-      </details>
-
-      <details data-ml="24">
-        <summary>Time signatures</summary>
-
-        <p>3/4 means there are 3 quarter notes in a measure </p>
-        <p>1/2 means there is 1 half note in a measure </p>
-      </details>
     </main>
   );
 }
