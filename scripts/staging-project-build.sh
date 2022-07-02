@@ -32,6 +32,12 @@ info "Copied index.html"
 
 # ==========================================================
 
+cp node_modules/@bgord/design/dist/main.min.css $OUT_DIR/
+cp node_modules/@bgord/design/dist/normalize.min.css $OUT_DIR/
+info "Copied CSS"
+
+# ==========================================================
+
 if test -d static
 then
   cp -r static $OUT_DIR
