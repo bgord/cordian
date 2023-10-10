@@ -1,4 +1,5 @@
 .eslintcache
+.cspellcache
 build/
 node_modules/
 static/*
