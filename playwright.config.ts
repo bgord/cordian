@@ -13,7 +13,7 @@ export default defineConfig({
     { name: "edge", use: { ...devices["Desktop Edge"] } },
   ],
   webServer: {
-    command: "bash scripts/test-project-start.sh",
+    command: "bash bgord-scripts/test-project-start.sh",
     url: "http://127.0.0.1:3333",
     stdout: "pipe",
     stderr: "pipe",
