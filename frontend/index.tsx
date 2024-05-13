@@ -20,7 +20,9 @@ function App() {
 
   return (
     <main>
-      <h1 data-p="12">Cordian</h1>
+      <h1 data-p="12" data-mt="24">
+        Cordian
+      </h1>
 
       <ul data-display="flex" data-gap="12" data-m="12" data-mt="24">
         {Music.Note.notes.map((note) => {
