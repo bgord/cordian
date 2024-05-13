@@ -1,19 +1,10 @@
 import * as bg from "@bgord/frontend";
 import { h } from "preact";
 
-import { Note, NoteType } from "./note";
+import * as Music from "./music";
 
-import {
-  MajorTriad,
-  MinorTriad,
-  DiminishedTriad,
-  AugmentedTriad,
-  Suspended2Triad,
-  Suspended4Triad,
-} from "./chord";
-
-export function Triads(props: { selectedNote: NoteType }) {
-  const note = new Note(props.selectedNote);
+export function Triads(props: { selectedNote: Music.NoteType }) {
+  const note = new Music.Note(props.selectedNote);
 
   return (
     <div>
@@ -30,12 +21,12 @@ export function Triads(props: { selectedNote: NoteType }) {
         data-pb="0"
       >
         {[
-          MajorTriad,
-          MinorTriad,
-          DiminishedTriad,
-          AugmentedTriad,
-          Suspended2Triad,
-          Suspended4Triad,
+          Music.MajorTriad,
+          Music.MinorTriad,
+          Music.DiminishedTriad,
+          Music.AugmentedTriad,
+          Music.Suspended2Triad,
+          Music.Suspended4Triad,
         ].map((Triad) => {
           const chord = new Triad(note);
           const details = bg.useToggle();

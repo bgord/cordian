@@ -1,20 +1,10 @@
 import * as bg from "@bgord/frontend";
 import { h } from "preact";
 
-import { Note, NoteType } from "./note";
+import * as Music from "./music";
 
-import {
-  MajorSeventh,
-  MinorSeventh,
-  MinorMajorSeventh,
-  DominantSeventh,
-  HalfDiminishedSeventh,
-  DiminishedSeventh,
-  AugmentedMajorSeventh,
-} from "./chord";
-
-export function SeventhChords(props: { selectedNote: NoteType }) {
-  const note = new Note(props.selectedNote);
+export function SeventhChords(props: { selectedNote: Music.NoteType }) {
+  const note = new Music.Note(props.selectedNote);
 
   return (
     <div>
@@ -31,13 +21,13 @@ export function SeventhChords(props: { selectedNote: NoteType }) {
         data-pb="0"
       >
         {[
-          MajorSeventh,
-          MinorSeventh,
-          MinorMajorSeventh,
-          DominantSeventh,
-          HalfDiminishedSeventh,
-          DiminishedSeventh,
-          AugmentedMajorSeventh,
+          Music.MajorSeventh,
+          Music.MinorSeventh,
+          Music.MinorMajorSeventh,
+          Music.DominantSeventh,
+          Music.HalfDiminishedSeventh,
+          Music.DiminishedSeventh,
+          Music.AugmentedMajorSeventh,
         ].map((SeventhChord) => {
           const chord = new SeventhChord(note);
           const details = bg.useToggle();

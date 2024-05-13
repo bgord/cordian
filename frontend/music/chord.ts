@@ -1,3 +1,4 @@
+/** @public */
 import { Note } from "./note";
 
 export abstract class Chord {

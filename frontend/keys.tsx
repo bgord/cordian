@@ -1,11 +1,9 @@
 import { h } from "preact";
 
-import { Note, NoteType } from "./note";
+import * as Music from "./music";
 
-import { MajorKey, MinorKey } from "./key";
-
-export function Keys(props: { selectedNote: NoteType }) {
-  const note = new Note(props.selectedNote);
+export function Keys(props: { selectedNote: Music.NoteType }) {
+  const note = new Music.Note(props.selectedNote);
 
   return (
     <div>
@@ -21,7 +19,7 @@ export function Keys(props: { selectedNote: NoteType }) {
         data-px="24"
         data-pb="0"
       >
-        {[MajorKey, MinorKey].map((Key) => {
+        {[Music.MajorKey, Music.MinorKey].map((Key) => {
           const key = new Key(note);
 
           return (

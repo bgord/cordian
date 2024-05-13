@@ -3,7 +3,7 @@ import { h, render } from "preact";
 
 import { useList } from "./use-list";
 
-import { Note } from "./note";
+import * as Music from "./music";
 
 import { Triads } from "./triads";
 import { SeventhChords } from "./seventh-chords";
@@ -11,7 +11,7 @@ import { Keys } from "./keys";
 import { KeyChords } from "./key-chords";
 
 function App() {
-  const [[selectedNote], actions] = useList<Note["value"]>({
+  const [[selectedNote], actions] = useList<Music.Note["value"]>({
     updaterFn: (_, payload) => {
       if (Array.isArray(payload)) return [payload[0]];
       return [payload];
@@ -23,8 +23,8 @@ function App() {
       <h1 data-p="12">Cordian</h1>
 
       <ul data-display="flex" data-gap="12" data-m="12" data-mt="24">
-        {Note.notes.map((note) => {
-          const currentNote = new Note(note);
+        {Music.Note.notes.map((note) => {
+          const currentNote = new Music.Note(note);
 
           return (
             <li key={note.toString()}>
@@ -54,7 +54,7 @@ function App() {
           >
             Selected note:{" "}
             <strong data-fs="16" data-color="black">
-              {Note.format(selectedNote)}
+              {Music.Note.format(selectedNote)}
             </strong>
           </h3>
 

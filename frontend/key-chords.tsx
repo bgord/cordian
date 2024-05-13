@@ -1,12 +1,10 @@
 import * as bg from "@bgord/frontend";
 import { h, Fragment } from "preact";
 
-import { Note, NoteType } from "./note";
+import * as Music from "./music";
 
-import { MajorKeyChords, MinorKeyChords } from "./key-chord";
-
-export function KeyChords(props: { selectedNote: NoteType }) {
-  const note = new Note(props.selectedNote);
+export function KeyChords(props: { selectedNote: Music.NoteType }) {
+  const note = new Music.Note(props.selectedNote);
 
   return (
     <div>
@@ -21,7 +19,7 @@ export function KeyChords(props: { selectedNote: NoteType }) {
         data-px="24"
         data-pb="0"
       >
-        {[MajorKeyChords, MinorKeyChords].map((KeyChords) => {
+        {[Music.MajorKeyChords, Music.MinorKeyChords].map((KeyChords) => {
           const keyChords = new KeyChords(note);
 
           return (
