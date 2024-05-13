@@ -1,6 +1,7 @@
 # Changelog
+- 2024-05-13 19:17 d9f24e9 **Merge pull request #1 from bgord/dependabot/npm_and_yarn/lodash-4.17.21**
+## 2024-05-13 19:17 
 - 2024-05-13 19:05 72c6e96 **refactor: music module**
-## 2024-05-13 19:05 
 - 2024-05-13 18:57 97fe136 **step: bump bgord/scripts**
 - 2024-05-13 18:56 4e32810 **feature: add e2e smoke test**
 - 2024-05-13 18:38 9acfafb **refactor: update deploy workflow**
@@ -20,6 +21,8 @@
 - 2024-05-13 17:46 5f566cb **feature: add dependabot**
 - 2024-05-13 17:45 35256c1 **refactor: remove local project start**
 - 2024-05-13 17:37 dad6f8f **step: bump bgord/scripts**
+- 2024-05-13 17:15 659bbea **build(deps): bump lodash from 4.17.1 to 4.17.21**
+- 2024-05-13 17:14 852f1ac **docs: generate CHANGELOG**
 - 2023-10-10 21:09 9491404 **step: bump bgord/scripts**
 - 2023-10-10 16:19 a5ae62e **step: bump bgord/scripts**
 - 2023-10-01 20:44 4779127 **refactor: node 20**
