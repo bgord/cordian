@@ -1,4 +1,4 @@
-import { useState, StateUpdater } from "preact/hooks";
+import { useState, StateUpdater, Dispatch } from "preact/hooks";
 
 export type UseListActionsType<T> = {
   clear: VoidFunction;
@@ -6,7 +6,7 @@ export type UseListActionsType<T> = {
   remove: (x: T) => void;
   toggle: (x: T) => void;
   isAdded: (x: T) => boolean;
-  update: StateUpdater<T[]>;
+  update: Dispatch<StateUpdater<T[]>>;
 };
 
 export type UseListReturnType<T> = [T[], UseListActionsType<T>];
