@@ -25,13 +25,18 @@ export function Keys(props: { selectedNote: NoteType }) {
           const key = new Key(note);
 
           return (
-            <li data-display="flex" data-main="between" data-mb="24">
+            <li
+              key={key.name()}
+              data-display="flex"
+              data-main="between"
+              data-mb="24"
+            >
               <div>
                 {key.notes.map((note, index, notes) => {
                   const isLast = index === notes.length - 1;
 
                   return (
-                    <strong data-mr="6">
+                    <strong key={note.value.toString()} data-mr="6">
                       {note.format()} {!isLast && " - "}
                     </strong>
                   );

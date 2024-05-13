@@ -26,6 +26,7 @@ export function KeyChords(props: { selectedNote: NoteType }) {
 
           return (
             <li
+              key={keyChords.name()}
               data-display="flex"
               data-direction="column"
               data-mb="24"
@@ -38,9 +39,10 @@ export function KeyChords(props: { selectedNote: NoteType }) {
                   const details = bg.useToggle();
 
                   return (
-                    <Fragment>
+                    <Fragment key={chord.name()}>
                       <div data-display="flex" data-cross="center" data-mb="6">
                         <button
+                          type="button"
                           class="c-button"
                           onClick={details.toggle}
                           data-variant="bare"
@@ -81,21 +83,27 @@ export function KeyChords(props: { selectedNote: NoteType }) {
                           <li>
                             <small>Root position</small>
                             {chord.notes.map((note) => (
-                              <strong data-mr="6">{note.format()}</strong>
+                              <strong key={note.value.toString()} data-mr="6">
+                                {note.format()}
+                              </strong>
                             ))}
                           </li>
 
                           <li data-mt="6">
                             <small>First inversion</small>
                             {chord.firstInversion().map((note) => (
-                              <strong data-mr="6">{note.format()}</strong>
+                              <strong key={note.value.toString()} data-mr="6">
+                                {note.format()}
+                              </strong>
                             ))}
                           </li>
 
                           <li data-mt="6">
                             <small>Second inversion</small>
                             {chord.secondInversion().map((note) => (
-                              <strong data-mr="6">{note.format()}</strong>
+                              <strong key={note.value.toString()} data-mr="6">
+                                {note.format()}
+                              </strong>
                             ))}
                           </li>
                         </ul>

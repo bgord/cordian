@@ -41,11 +41,13 @@ export function Triads(props: { selectedNote: NoteType }) {
           const details = bg.useToggle();
 
           return (
-            <li data-mb="24">
+            <li key={chord.name()} data-mb="24">
               <div data-display="flex" data-main="between" data-cross="center">
                 <div data-mr="24">
                   {chord.notes.map((note) => (
-                    <strong data-mr="6">{note.format()}</strong>
+                    <strong key={note.value.toString()} data-mr="6">
+                      {note.format()}
+                    </strong>
                   ))}
                 </div>
 
@@ -54,6 +56,7 @@ export function Triads(props: { selectedNote: NoteType }) {
                 </small>
 
                 <button
+                  type="button"
                   class="c-button"
                   data-variant="bare"
                   onClick={details.toggle}
@@ -81,23 +84,22 @@ export function Triads(props: { selectedNote: NoteType }) {
               </div>
 
               {details.on && (
-                <ul
-                  data-mt="6"
-                  data-pb="6"
-                  data-bcb="gray-300"
-                  data-bwb="2"
-                >
+                <ul data-mt="6" data-pb="6" data-bcb="gray-300" data-bwb="2">
                   <li>
                     <small>First inversion</small>
                     {chord.firstInversion().map((note) => (
-                      <strong data-mr="6">{note.format()}</strong>
+                      <strong key={note.value.toString()} data-mr="6">
+                        {note.format()}
+                      </strong>
                     ))}
                   </li>
 
                   <li data-mt="6">
                     <small>Second inversion</small>
                     {chord.secondInversion().map((note) => (
-                      <strong data-mr="6">{note.format()}</strong>
+                      <strong key={note.value.toString()} data-mr="6">
+                        {note.format()}
+                      </strong>
                     ))}
                   </li>
                 </ul>
