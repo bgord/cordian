@@ -5,19 +5,21 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "preinstall": "npx only-allow npm"
   },
   "keywords": [],
   "author": "Bartosz Gordon",
   "license": "ISC",
   "devDependencies": {
     "@biomejs/biome": "1.7.3",
-    "@commitlint/cli": "^16.0.2",
-    "@commitlint/config-conventional": "^16.0.0",
+    "@commitlint/cli": "19.3.0",
+    "@commitlint/config-conventional": "19.2.2",
     "@types/lodash": "^4.14.178",
     "esbuild": "^0.14.11",
     "gzip-cli": "^1.2.0",
     "husky": "^7.0.4",
+    "only-allow": "1.2.1",
     "serve": "^14.0.0",
     "standard-version": "^9.3.2"
   },
