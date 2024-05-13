@@ -1,3 +1,4 @@
+import * as bg from "@bgord/frontend";
 import { h, render } from "preact";
 
 import { useList } from "./use-list";
@@ -19,19 +20,19 @@ function App() {
 
   return (
     <main>
-      <ul data-display="flex" style="list-style: none">
+      <ul data-display="flex" data-gap="12" data-m="12">
         {Note.notes.map((note) => {
           const currentNote = new Note(note);
 
           return (
-            <li data-m="24" data-mr="12">
+            <li key={note.toString()}>
               <button
                 class="c-button"
                 data-variant={
                   currentNote.value === selectedNote ? "primary" : "secondary"
                 }
                 onClick={() => actions.toggle(currentNote.value)}
-                style="min-width: 45px"
+                {...bg.Rhythm().times(4).style.minWidth}
               >
                 {currentNote.format()}
               </button>
@@ -41,7 +42,7 @@ function App() {
       </ul>
 
       {selectedNote !== undefined && (
-        <div data-ml="24" data-mt="48">
+        <div data-ml="12" data-mt="48">
           <h3
             data-transform="uppercase"
             data-fs="14"
@@ -55,13 +56,10 @@ function App() {
             </strong>
           </h3>
 
-          <section data-display="flex">
+          <section data-display="flex" data-gap="24">
             <Triads selectedNote={selectedNote} />
-            <div data-mr="72" />
             <SeventhChords selectedNote={selectedNote} />
-            <div data-mr="72" />
             <Keys selectedNote={selectedNote} />
-            <div data-mr="72" />
             <KeyChords selectedNote={selectedNote} />
           </section>
         </div>

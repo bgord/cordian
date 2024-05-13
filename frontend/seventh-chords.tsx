@@ -29,7 +29,6 @@ export function SeventhChords(props: { selectedNote: NoteType }) {
         data-pt="12"
         data-px="24"
         data-pb="0"
-        style="list-style: none"
       >
         {[
           MajorSeventh,
@@ -85,7 +84,6 @@ export function SeventhChords(props: { selectedNote: NoteType }) {
 
               {details.on && (
                 <ul
-                  style="list-style: none;"
                   data-mt="6"
                   data-pb="6"
                   data-bcb="gray-300"
