@@ -31,7 +31,7 @@
   "dependencies": {
     "@bgord/design": "0.27.82",
     "@bgord/frontend": "github:bgord/bgord-frontend",
-    "lodash": "4.17.1",
+    "lodash": "4.17.21",
     "preact": "10.21.0",
     "react": "npm:@preact/compat@17.1.2",
     "react-dom": "npm:@preact/compat@17.1.2"
