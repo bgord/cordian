@@ -1,6 +1,6 @@
+import * as bg from "@bgord/frontend";
 import { h, Fragment } from "preact";
 
-import { useToggle } from "./use-toggle";
 import { Note, NoteType } from "./note";
 
 import { MajorKeyChords, MinorKeyChords } from "./key-chord";
@@ -36,7 +36,7 @@ export function KeyChords(props: { selectedNote: NoteType }) {
 
               <div data-display="flex" data-direction="column" data-mt="24">
                 {keyChords.chords.map((chord) => {
-                  const details = useToggle();
+                  const details = bg.useToggle();
 
                   return (
                     <Fragment>

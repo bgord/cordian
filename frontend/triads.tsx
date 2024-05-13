@@ -1,6 +1,6 @@
+import * as bg from "@bgord/frontend";
 import { h } from "preact";
 
-import { useToggle } from "./use-toggle";
 import { Note, NoteType } from "./note";
 
 import {
@@ -39,7 +39,7 @@ export function Triads(props: { selectedNote: NoteType }) {
           Suspended4Triad,
         ].map((Triad) => {
           const chord = new Triad(note);
-          const details = useToggle();
+          const details = bg.useToggle();
 
           return (
             <li data-mb="24">

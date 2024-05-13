@@ -1,6 +1,6 @@
+import * as bg from "@bgord/frontend";
 import { h } from "preact";
 
-import { useToggle } from "./use-toggle";
 import { Note, NoteType } from "./note";
 
 import {
@@ -41,7 +41,7 @@ export function SeventhChords(props: { selectedNote: NoteType }) {
           AugmentedMajorSeventh,
         ].map((SeventhChord) => {
           const chord = new SeventhChord(note);
-          const details = useToggle();
+          const details = bg.useToggle();
 
           return (
             <li data-mb="24">
