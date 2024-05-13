@@ -7,3 +7,4 @@ static/*
 !static/*.ico
 !static/*.svg
 tsconfig.tsbuildinfo
+test-results/
