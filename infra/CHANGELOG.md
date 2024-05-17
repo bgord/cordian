@@ -1,7 +1,12 @@
 # Changelog
+- 2024-05-17 18:36 fbf1b01 **Merge pull request #5 from bgord/dependabot/npm_and_yarn/esbuild-0.21.3**
+- 2024-05-17 18:36 03b7aa2 **Merge pull request #4 from bgord/dependabot/npm_and_yarn/bgord/frontend-3d78276**
+## 2024-05-17 18:36 
 - 2024-05-17 18:34 073ce87 **Merge pull request #6 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.4**
-## 2024-05-17 18:34 
+- 2024-05-17 16:35 d605b27 **docs: generate CHANGELOG**
+- 2024-05-17 16:35 2a33c2c **build(deps-dev): bump esbuild from 0.21.2 to 0.21.3**
 - 2024-05-17 11:51 1e67c70 **build(deps-dev): bump @types/lodash from 4.17.1 to 4.17.4**
+- 2024-05-15 11:27 8d11a6c **build(deps): bump @bgord/frontend from `1abf0da` to `3d78276`**
 - 2024-05-13 20:01 69cc546 **step: cache playwright binaries**
 - 2024-05-13 19:17 d9f24e9 **Merge pull request #1 from bgord/dependabot/npm_and_yarn/lodash-4.17.21**
 - 2024-05-13 19:17 8604af9 **refactor: improve page header**
