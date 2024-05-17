@@ -1,6 +1,8 @@
 # Changelog
+- 2024-05-17 18:34 073ce87 **Merge pull request #6 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.4**
+## 2024-05-17 18:34 
+- 2024-05-17 11:51 1e67c70 **build(deps-dev): bump @types/lodash from 4.17.1 to 4.17.4**
 - 2024-05-13 20:01 69cc546 **step: cache playwright binaries**
-## 2024-05-13 20:01 
 - 2024-05-13 19:17 d9f24e9 **Merge pull request #1 from bgord/dependabot/npm_and_yarn/lodash-4.17.21**
 - 2024-05-13 19:17 8604af9 **refactor: improve page header**
 - 2024-05-13 19:05 72c6e96 **refactor: music module**
@@ -12,6 +14,7 @@
 - 2024-05-13 18:18 de5816a **refactor: introduce bgord frontend**
 - 2024-05-13 18:12 16341d5 **step: bump bgord/scripts**
 - 2024-05-13 18:11 eb60505 **refactor: improve staging-project-build**
+- 2024-05-13 18:02 a85c671 **docs: generate CHANGELOG**
 - 2024-05-13 18:00 3a374e1 **step: bump bgord/scripts**
 - 2024-05-13 17:59 2bba416 **fix: use list types**
 - 2024-05-13 17:55 f2fa55d **refactor: update packages**
