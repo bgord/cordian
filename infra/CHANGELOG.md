@@ -1,15 +1,18 @@
 # Changelog
+- 2024-05-17 18:37 c22be44 **Merge pull request #2 from bgord/dependabot/npm_and_yarn/preact-10.22.0**
 - 2024-05-17 18:37 36acc4d **Merge pull request #3 from bgord/dependabot/npm_and_yarn/knip-5.16.0**
 ## 2024-05-17 18:37 
 - 2024-05-17 18:36 fbf1b01 **Merge pull request #5 from bgord/dependabot/npm_and_yarn/esbuild-0.21.3**
 - 2024-05-17 18:36 03b7aa2 **Merge pull request #4 from bgord/dependabot/npm_and_yarn/bgord/frontend-3d78276**
 - 2024-05-17 18:34 073ce87 **Merge pull request #6 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.4**
+- 2024-05-17 16:37 311dca3 **docs: generate CHANGELOG**
 - 2024-05-17 16:36 827cca9 **docs: generate CHANGELOG**
 - 2024-05-17 16:36 23014d8 **build(deps-dev): bump knip from 5.15.1 to 5.16.0**
 - 2024-05-17 16:35 d605b27 **docs: generate CHANGELOG**
 - 2024-05-17 16:35 2a33c2c **build(deps-dev): bump esbuild from 0.21.2 to 0.21.3**
 - 2024-05-17 11:51 1e67c70 **build(deps-dev): bump @types/lodash from 4.17.1 to 4.17.4**
 - 2024-05-15 11:27 8d11a6c **build(deps): bump @bgord/frontend from `1abf0da` to `3d78276`**
+- 2024-05-15 11:26 4957ff6 **build(deps): bump preact from 10.21.0 to 10.22.0**
 - 2024-05-13 20:01 69cc546 **step: cache playwright binaries**
 - 2024-05-13 19:17 d9f24e9 **Merge pull request #1 from bgord/dependabot/npm_and_yarn/lodash-4.17.21**
 - 2024-05-13 19:17 8604af9 **refactor: improve page header**
