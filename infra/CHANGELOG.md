@@ -1,6 +1,9 @@
 # Changelog
+- 2024-05-22 12:23 6e14508 **Merge pull request #7 from bgord/dependabot/npm_and_yarn/bgord/frontend-1c0701f**
+## 2024-05-22 12:23 
+- 2024-05-20 11:20 bde6b4a **build(deps): bump @bgord/frontend from `3d78276` to `1c0701f`**
 - 2024-05-18 14:00 608b6d3 **step: install linters**
-## 2024-05-18 14:00 
+- 2024-05-18 12:00 783fb1b **docs: generate CHANGELOG**
 - 2024-05-17 18:37 c22be44 **Merge pull request #2 from bgord/dependabot/npm_and_yarn/preact-10.22.0**
 - 2024-05-17 18:37 36acc4d **Merge pull request #3 from bgord/dependabot/npm_and_yarn/knip-5.16.0**
 - 2024-05-17 18:36 fbf1b01 **Merge pull request #5 from bgord/dependabot/npm_and_yarn/esbuild-0.21.3**
