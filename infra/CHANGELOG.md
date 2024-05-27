@@ -1,6 +1,13 @@
 # Changelog
+- 2024-05-27 09:29 d5b24e7 **Merge pull request #8 from bgord/dependabot/npm_and_yarn/bgord/frontend-35f2984**
+- 2024-05-27 09:29 2374ca0 **Merge pull request #10 from bgord/dependabot/npm_and_yarn/playwright/test-1.44.1**
+## 2024-05-27 09:29 
+- 2024-05-27 09:28 d14642e **Merge pull request #11 from bgord/dependabot/npm_and_yarn/cspell-8.8.3**
+- 2024-05-24 11:35 2505fec **build(deps-dev): bump cspell from 8.8.1 to 8.8.3**
+- 2024-05-23 12:09 b2b180d **build(deps-dev): bump @playwright/test from 1.44.0 to 1.44.1**
 - 2024-05-22 12:23 6e14508 **Merge pull request #7 from bgord/dependabot/npm_and_yarn/bgord/frontend-1c0701f**
-## 2024-05-22 12:23 
+- 2024-05-22 11:36 2113470 **--- updated-dependencies: - dependency-name: "@bgord/frontend"   dependency-type: direct:production ...**
+- 2024-05-22 10:23 8f427ca **docs: generate CHANGELOG**
 - 2024-05-20 11:20 bde6b4a **build(deps): bump @bgord/frontend from `3d78276` to `1c0701f`**
 - 2024-05-18 14:00 608b6d3 **step: install linters**
 - 2024-05-18 12:00 783fb1b **docs: generate CHANGELOG**
