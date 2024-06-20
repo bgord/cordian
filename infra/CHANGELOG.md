@@ -1,9 +1,12 @@
 # Changelog
+- 2024-06-20 09:43 1b2dd12 **Merge pull request #24 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.5**
+## 2024-06-20 09:43 
 - 2024-06-17 12:41 93f3ddb **Merge pull request #25 from bgord/dependabot/npm_and_yarn/esbuild-0.21.5**
 - 2024-06-17 12:41 5f574d8 **Merge pull request #28 from bgord/dependabot/npm_and_yarn/knip-5.19.0**
 - 2024-06-17 12:41 55d9cf9 **Merge pull request #27 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.8.1**
 - 2024-06-17 12:41 2be300f **Merge pull request #26 from bgord/dependabot/npm_and_yarn/shellcheck-3.0.0**
-## 2024-06-17 12:41 
+- 2024-06-17 10:41 e4f0a43 **build(deps-dev): bump @types/lodash from 4.17.4 to 4.17.5**
+- 2024-06-17 10:41 50b1bf4 **docs: generate CHANGELOG**
 - 2024-06-13 11:34 dbcc7b8 **build(deps-dev): bump knip from 5.18.0 to 5.19.0**
 - 2024-06-11 11:58 bb1192d **build(deps-dev): bump @biomejs/biome from 1.8.0 to 1.8.1**
 - 2024-06-10 11:55 9df7c8d **build(deps-dev): bump esbuild from 0.21.4 to 0.21.5**
