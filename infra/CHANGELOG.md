@@ -1,10 +1,19 @@
 # Changelog
+- 2024-06-24 12:31 c840032 **Merge pull request #36 from bgord/dependabot/npm_and_yarn/cspell-8.9.1**
+- 2024-06-24 12:31 64f4fd1 **Merge pull request #34 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.8.2**
+- 2024-06-24 12:31 5e013de **Merge pull request #30 from bgord/dependabot/npm_and_yarn/bgord/frontend-d61550b**
+- 2024-06-24 12:31 059bb12 **Merge pull request #35 from bgord/dependabot/npm_and_yarn/knip-5.22.2**
+## 2024-06-24 12:31 
+- 2024-06-21 11:10 acab5a4 **build(deps-dev): bump knip from 5.19.0 to 5.22.2**
+- 2024-06-21 11:10 021b7b5 **build(deps-dev): bump cspell from 8.8.4 to 8.9.1**
+- 2024-06-20 11:14 fbce9ea **build(deps-dev): bump @biomejs/biome from 1.8.1 to 1.8.2**
 - 2024-06-20 09:43 1b2dd12 **Merge pull request #24 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.5**
-## 2024-06-20 09:43 
+- 2024-06-20 07:43 e5ff4b0 **docs: generate CHANGELOG**
 - 2024-06-17 12:41 93f3ddb **Merge pull request #25 from bgord/dependabot/npm_and_yarn/esbuild-0.21.5**
 - 2024-06-17 12:41 5f574d8 **Merge pull request #28 from bgord/dependabot/npm_and_yarn/knip-5.19.0**
 - 2024-06-17 12:41 55d9cf9 **Merge pull request #27 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.8.1**
 - 2024-06-17 12:41 2be300f **Merge pull request #26 from bgord/dependabot/npm_and_yarn/shellcheck-3.0.0**
+- 2024-06-17 11:58 874f729 **build(deps): bump @bgord/frontend from `c17a490` to `d61550b`**
 - 2024-06-17 10:41 e4f0a43 **build(deps-dev): bump @types/lodash from 4.17.4 to 4.17.5**
 - 2024-06-17 10:41 50b1bf4 **docs: generate CHANGELOG**
 - 2024-06-13 11:34 dbcc7b8 **build(deps-dev): bump knip from 5.18.0 to 5.19.0**
