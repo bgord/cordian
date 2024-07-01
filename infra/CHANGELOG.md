@@ -1,9 +1,18 @@
 # Changelog
+- 2024-07-01 11:20 9269fe4 **Merge pull request #41 from bgord/dependabot/npm_and_yarn/knip-5.23.1**
+- 2024-07-01 11:20 7135b71 **Merge pull request #39 from bgord/dependabot/npm_and_yarn/playwright/test-1.45.0**
+- 2024-07-01 11:20 45ac9ed **Merge pull request #42 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.8.3**
+- 2024-07-01 11:20 11fa136 **Merge pull request #37 from bgord/dependabot/npm_and_yarn/bgord/frontend-69d6db4**
+## 2024-07-01 11:20 
+- 2024-06-28 11:16 b01ed88 **build(deps-dev): bump @biomejs/biome from 1.8.2 to 1.8.3**
+- 2024-06-27 11:53 ed7e56c **build(deps-dev): bump knip from 5.22.2 to 5.23.1**
+- 2024-06-25 11:22 f659bc6 **build(deps-dev): bump @playwright/test from 1.44.1 to 1.45.0**
 - 2024-06-24 12:31 c840032 **Merge pull request #36 from bgord/dependabot/npm_and_yarn/cspell-8.9.1**
 - 2024-06-24 12:31 64f4fd1 **Merge pull request #34 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.8.2**
 - 2024-06-24 12:31 5e013de **Merge pull request #30 from bgord/dependabot/npm_and_yarn/bgord/frontend-d61550b**
 - 2024-06-24 12:31 059bb12 **Merge pull request #35 from bgord/dependabot/npm_and_yarn/knip-5.22.2**
-## 2024-06-24 12:31 
+- 2024-06-24 11:12 685563d **build(deps): bump @bgord/frontend from `d61550b` to `69d6db4`**
+- 2024-06-24 10:32 fb4c46a **docs: generate CHANGELOG**
 - 2024-06-21 11:10 acab5a4 **build(deps-dev): bump knip from 5.19.0 to 5.22.2**
 - 2024-06-21 11:10 021b7b5 **build(deps-dev): bump cspell from 8.8.4 to 8.9.1**
 - 2024-06-20 11:14 fbce9ea **build(deps-dev): bump @biomejs/biome from 1.8.1 to 1.8.2**
