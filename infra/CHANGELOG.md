@@ -1,9 +1,20 @@
 # Changelog
+- 2024-07-03 09:46 f13b090 **Merge pull request #44 from bgord/dependabot/npm_and_yarn/knip-5.23.3**
+## 2024-07-03 09:46 
+- 2024-07-03 09:45 96ce796 **Merge pull request #45 from bgord/dependabot/npm_and_yarn/preact-10.22.1**
+- 2024-07-03 09:45 80171ec **Merge pull request #49 from bgord/dependabot/npm_and_yarn/esbuild-0.23.0**
+- 2024-07-03 09:45 2e7add2 **Merge pull request #46 from bgord/dependabot/npm_and_yarn/bgord/frontend-9f7903a**
+- 2024-07-03 09:45 0b90fba **Merge pull request #47 from bgord/dependabot/npm_and_yarn/postcss-8.4.39**
+- 2024-07-02 11:26 e7f8800 **build(deps-dev): bump esbuild from 0.21.5 to 0.23.0**
+- 2024-07-01 11:20 f62261c **build(deps): bump @bgord/frontend from `69d6db4` to `9f7903a`**
 - 2024-07-01 11:20 9269fe4 **Merge pull request #41 from bgord/dependabot/npm_and_yarn/knip-5.23.1**
 - 2024-07-01 11:20 7135b71 **Merge pull request #39 from bgord/dependabot/npm_and_yarn/playwright/test-1.45.0**
 - 2024-07-01 11:20 45ac9ed **Merge pull request #42 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.8.3**
+- 2024-07-01 11:20 121af87 **build(deps-dev): bump postcss from 8.4.38 to 8.4.39**
 - 2024-07-01 11:20 11fa136 **Merge pull request #37 from bgord/dependabot/npm_and_yarn/bgord/frontend-69d6db4**
-## 2024-07-01 11:20 
+- 2024-07-01 11:19 ce1d6ca **build(deps-dev): bump knip from 5.23.1 to 5.23.3**
+- 2024-07-01 11:19 8cad379 **build(deps): bump preact from 10.22.0 to 10.22.1**
+- 2024-07-01 09:21 86731b0 **docs: generate CHANGELOG**
 - 2024-06-28 11:16 b01ed88 **build(deps-dev): bump @biomejs/biome from 1.8.2 to 1.8.3**
 - 2024-06-27 11:53 ed7e56c **build(deps-dev): bump knip from 5.22.2 to 5.23.1**
 - 2024-06-25 11:22 f659bc6 **build(deps-dev): bump @playwright/test from 1.44.1 to 1.45.0**
