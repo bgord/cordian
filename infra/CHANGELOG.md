@@ -1,11 +1,18 @@
 # Changelog
+- 2024-07-09 11:12 a049425 **Merge pull request #51 from bgord/dependabot/npm_and_yarn/playwright/test-1.45.1**
+## 2024-07-09 11:12 
+- 2024-07-09 11:11 7dc5f04 **Merge pull request #55 from bgord/dependabot/npm_and_yarn/cspell-8.10.4**
+- 2024-07-09 11:11 6ac64e3 **Merge pull request #56 from bgord/dependabot/npm_and_yarn/knip-5.24.3**
+- 2024-07-08 11:23 d338552 **build(deps-dev): bump knip from 5.23.3 to 5.24.3**
+- 2024-07-08 11:23 209f691 **build(deps-dev): bump cspell from 8.9.1 to 8.10.4**
+- 2024-07-03 11:54 771b5fd **build(deps-dev): bump @playwright/test from 1.45.0 to 1.45.1**
 - 2024-07-03 09:46 f13b090 **Merge pull request #44 from bgord/dependabot/npm_and_yarn/knip-5.23.3**
 - 2024-07-03 09:46 54fdafc **Merge pull request #43 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.6**
-## 2024-07-03 09:46 
 - 2024-07-03 09:45 96ce796 **Merge pull request #45 from bgord/dependabot/npm_and_yarn/preact-10.22.1**
 - 2024-07-03 09:45 80171ec **Merge pull request #49 from bgord/dependabot/npm_and_yarn/esbuild-0.23.0**
 - 2024-07-03 09:45 2e7add2 **Merge pull request #46 from bgord/dependabot/npm_and_yarn/bgord/frontend-9f7903a**
 - 2024-07-03 09:45 0b90fba **Merge pull request #47 from bgord/dependabot/npm_and_yarn/postcss-8.4.39**
+- 2024-07-03 07:46 96b5ee0 **docs: generate CHANGELOG**
 - 2024-07-03 07:46 913a91b **docs: generate CHANGELOG**
 - 2024-07-03 07:46 0230921 **build(deps-dev): bump @types/lodash from 4.17.5 to 4.17.6**
 - 2024-07-02 11:26 e7f8800 **build(deps-dev): bump esbuild from 0.21.5 to 0.23.0**
