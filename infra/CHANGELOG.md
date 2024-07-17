@@ -1,8 +1,11 @@
 # Changelog
+- 2024-07-17 09:45 6d61844 **Merge pull request #63 from bgord/dependabot/npm_and_yarn/playwright/test-1.45.2**
+## 2024-07-17 09:45 
 - 2024-07-17 09:44 b5e1530 **Merge pull request #62 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.7**
-## 2024-07-17 09:44 
 - 2024-07-17 09:43 e35ad0e **Merge pull request #61 from bgord/dependabot/npm_and_yarn/knip-5.26.0**
 - 2024-07-17 09:43 14facab **Merge pull request #60 from bgord/dependabot/npm_and_yarn/bgord/frontend-fc4d529**
+- 2024-07-17 07:44 b6e17e0 **docs: generate CHANGELOG**
+- 2024-07-17 07:44 13a4fbb **build(deps-dev): bump @playwright/test from 1.45.1 to 1.45.2**
 - 2024-07-16 11:29 59637ae **build(deps-dev): bump @types/lodash from 4.17.6 to 4.17.7**
 - 2024-07-15 11:50 99ed210 **build(deps-dev): bump knip from 5.25.2 to 5.26.0**
 - 2024-07-15 11:49 a03e27f **build(deps): bump @bgord/frontend from `72243d1` to `fc4d529`**
