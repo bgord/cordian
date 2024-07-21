@@ -1,7 +1,12 @@
 # Changelog
+- 2024-07-21 21:39 1281c99 **Merge pull request #67 from bgord/dependabot/npm_and_yarn/husky-9.1.1**
+## 2024-07-21 21:39 
+- 2024-07-21 21:38 4efb6fb **Merge pull request #66 from bgord/dependabot/npm_and_yarn/bgord/frontend-9b50c1c**
+- 2024-07-19 11:41 b0f4342 **build(deps-dev): bump husky from 9.0.11 to 9.1.1**
+- 2024-07-19 11:41 6cc6a83 **build(deps): bump @bgord/frontend from `1719ec8` to `9b50c1c`**
 - 2024-07-19 09:36 b7faf01 **Merge pull request #65 from bgord/dependabot/npm_and_yarn/bgord/frontend-1719ec8**
 - 2024-07-19 09:36 9fa7bea **Merge pull request #64 from bgord/dependabot/npm_and_yarn/cspell-8.11.0**
-## 2024-07-19 09:36 
+- 2024-07-19 07:36 01ff373 **docs: generate CHANGELOG**
 - 2024-07-17 11:34 dd1c18c **build(deps): bump @bgord/frontend from `fc4d529` to `1719ec8`**
 - 2024-07-17 11:33 0103cf7 **build(deps-dev): bump cspell from 8.10.4 to 8.11.0**
 - 2024-07-17 09:45 6d61844 **Merge pull request #63 from bgord/dependabot/npm_and_yarn/playwright/test-1.45.2**
