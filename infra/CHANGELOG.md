@@ -1,7 +1,18 @@
 # Changelog
+- 2024-07-25 08:51 34b075b **Merge pull request #72 from bgord/dependabot/npm_and_yarn/preact-10.23.0**
+- 2024-07-25 08:51 23829d0 **Merge pull request #70 from bgord/dependabot/npm_and_yarn/bgord/frontend-73b8d29**
+- 2024-07-25 08:51 14dc71a **Merge pull request #69 from bgord/dependabot/npm_and_yarn/playwright/test-1.45.3**
+- 2024-07-25 08:51 05a80f5 **Merge pull request #71 from bgord/dependabot/npm_and_yarn/cspell-8.12.1**
+## 2024-07-25 08:51 
+- 2024-07-25 08:50 0467aea **Merge pull request #68 from bgord/dependabot/npm_and_yarn/knip-5.27.0**
+- 2024-07-24 11:22 b6ace55 **build(deps): bump preact from 10.22.1 to 10.23.0**
+- 2024-07-23 12:08 b2d552b **build(deps-dev): bump cspell from 8.11.0 to 8.12.1**
+- 2024-07-23 12:08 5dd041c **build(deps): bump @bgord/frontend from `9b50c1c` to `73b8d29`**
+- 2024-07-23 12:07 58d9a1f **build(deps-dev): bump knip from 5.26.0 to 5.27.0**
+- 2024-07-23 12:07 036bff5 **build(deps-dev): bump @playwright/test from 1.45.2 to 1.45.3**
 - 2024-07-21 21:39 1281c99 **Merge pull request #67 from bgord/dependabot/npm_and_yarn/husky-9.1.1**
-## 2024-07-21 21:39 
 - 2024-07-21 21:38 4efb6fb **Merge pull request #66 from bgord/dependabot/npm_and_yarn/bgord/frontend-9b50c1c**
+- 2024-07-21 19:39 59e5b3e **docs: generate CHANGELOG**
 - 2024-07-19 11:41 b0f4342 **build(deps-dev): bump husky from 9.0.11 to 9.1.1**
 - 2024-07-19 11:41 6cc6a83 **build(deps): bump @bgord/frontend from `1719ec8` to `9b50c1c`**
 - 2024-07-19 09:36 b7faf01 **Merge pull request #65 from bgord/dependabot/npm_and_yarn/bgord/frontend-1719ec8**
