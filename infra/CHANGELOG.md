@@ -1,7 +1,14 @@
 # Changelog
+- 2024-07-30 13:07 c610b9b **Merge pull request #77 from bgord/dependabot/npm_and_yarn/husky-9.1.3**
+- 2024-07-30 13:07 44a980c **Merge pull request #74 from bgord/dependabot/npm_and_yarn/preact-10.23.1**
+- 2024-07-30 13:07 2211f96 **Merge pull request #75 from bgord/dependabot/npm_and_yarn/postcss-8.4.40**
+## 2024-07-30 13:07 
 - 2024-07-30 13:06 30cb64c **Merge pull request #73 from bgord/dependabot/npm_and_yarn/bgord/frontend-7e64958**
-## 2024-07-30 13:06 
+- 2024-07-30 11:07 95a0555 **docs: generate CHANGELOG**
+- 2024-07-29 11:46 cd1f956 **build(deps-dev): bump husky from 9.1.1 to 9.1.3**
+- 2024-07-25 11:38 f7e46e1 **build(deps-dev): bump postcss from 8.4.39 to 8.4.40**
 - 2024-07-25 11:38 43159d9 **build(deps): bump @bgord/frontend from `73b8d29` to `7e64958`**
+- 2024-07-25 11:38 189a47e **build(deps): bump preact from 10.23.0 to 10.23.1**
 - 2024-07-25 08:51 34b075b **Merge pull request #72 from bgord/dependabot/npm_and_yarn/preact-10.23.0**
 - 2024-07-25 08:51 23829d0 **Merge pull request #70 from bgord/dependabot/npm_and_yarn/bgord/frontend-73b8d29**
 - 2024-07-25 08:51 14dc71a **Merge pull request #69 from bgord/dependabot/npm_and_yarn/playwright/test-1.45.3**
