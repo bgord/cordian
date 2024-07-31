@@ -1,10 +1,15 @@
 # Changelog
+- 2024-07-31 09:43 acc9ce9 **Merge pull request #78 from bgord/dependabot/npm_and_yarn/husky-9.1.4**
+- 2024-07-31 09:43 08aec44 **Merge pull request #79 from bgord/dependabot/npm_and_yarn/bgord/frontend-a84384f**
+## 2024-07-31 09:43 
 - 2024-07-30 13:07 c610b9b **Merge pull request #77 from bgord/dependabot/npm_and_yarn/husky-9.1.3**
 - 2024-07-30 13:07 44a980c **Merge pull request #74 from bgord/dependabot/npm_and_yarn/preact-10.23.1**
 - 2024-07-30 13:07 2211f96 **Merge pull request #75 from bgord/dependabot/npm_and_yarn/postcss-8.4.40**
-## 2024-07-30 13:07 
 - 2024-07-30 13:06 30cb64c **Merge pull request #73 from bgord/dependabot/npm_and_yarn/bgord/frontend-7e64958**
+- 2024-07-30 11:35 1766f65 **build(deps): bump @bgord/frontend from `7e64958` to `a84384f`**
+- 2024-07-30 11:34 1d185de **build(deps-dev): bump husky from 9.1.3 to 9.1.4**
 - 2024-07-30 11:07 95a0555 **docs: generate CHANGELOG**
+- 2024-07-30 11:07 0af922d **docs: generate CHANGELOG**
 - 2024-07-29 11:46 cd1f956 **build(deps-dev): bump husky from 9.1.1 to 9.1.3**
 - 2024-07-25 11:38 f7e46e1 **build(deps-dev): bump postcss from 8.4.39 to 8.4.40**
 - 2024-07-25 11:38 43159d9 **build(deps): bump @bgord/frontend from `73b8d29` to `7e64958`**
