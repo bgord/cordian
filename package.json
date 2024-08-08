@@ -27,7 +27,7 @@
     "postcss-cli": "11.0.0",
     "serve": "14.2.3",
     "standard-version": "9.5.0",
-    "cspell": "8.12.1",
+    "cspell": "8.13.2",
     "shellcheck": "3.0.0"
   },
   "dependencies": {
