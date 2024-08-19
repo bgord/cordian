@@ -1,7 +1,10 @@
 # Changelog
+- 2024-08-19 09:01 ecd9980 **Merge pull request #93 from bgord/dependabot/npm_and_yarn/bgord/frontend-dd7dda0**
+## 2024-08-19 09:01 
+- 2024-08-16 11:23 3c03fa4 **build(deps): bump @bgord/frontend from `7a57fb3` to `dd7dda0`**
 - 2024-08-16 08:50 696de58 **Merge pull request #91 from bgord/dependabot/npm_and_yarn/cspell-8.13.3**
 - 2024-08-16 08:50 650fa6d **Merge pull request #92 from bgord/dependabot/npm_and_yarn/preact-10.23.2**
-## 2024-08-16 08:50 
+- 2024-08-16 06:51 75c5299 **docs: generate CHANGELOG**
 - 2024-08-13 12:10 f8acb05 **build(deps): bump preact from 10.23.1 to 10.23.2**
 - 2024-08-13 12:10 e92b65a **build(deps-dev): bump cspell from 8.13.2 to 8.13.3**
 - 2024-08-13 10:44 9c1e066 **Merge pull request #90 from bgord/dependabot/npm_and_yarn/bgord/frontend-7a57fb3**
