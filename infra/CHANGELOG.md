@@ -1,7 +1,9 @@
 # Changelog
+- 2024-08-24 17:04 9c0a4d5 **step: fix prepare script**
+## 2024-08-24 17:04 
 - 2024-08-24 17:00 a591bef **step: bump bgord/scripts**
-## 2024-08-24 17:00 
 - 2024-08-24 16:02 14ee6a5 **refactor: update husky git hooks**
+- 2024-08-24 15:00 419745e **docs: generate CHANGELOG**
 - 2024-08-24 14:02 0578fa7 **docs: generate CHANGELOG**
 - 2024-08-23 12:44 65a1751 **step: bump bgord/scripts**
 - 2024-08-23 10:45 8ab681a **docs: generate CHANGELOG**
