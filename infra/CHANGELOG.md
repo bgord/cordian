@@ -1,11 +1,14 @@
 # Changelog
+- 2024-08-25 09:44 94484be **Merge pull request #101 from bgord/dependabot/npm_and_yarn/bgord/frontend-e90c43b**
+## 2024-08-25 09:44 
 - 2024-08-24 17:04 9c0a4d5 **step: fix prepare script**
-## 2024-08-24 17:04 
 - 2024-08-24 17:00 a591bef **step: bump bgord/scripts**
 - 2024-08-24 16:02 14ee6a5 **refactor: update husky git hooks**
+- 2024-08-24 15:04 5f086d2 **docs: generate CHANGELOG**
 - 2024-08-24 15:00 419745e **docs: generate CHANGELOG**
 - 2024-08-24 14:02 0578fa7 **docs: generate CHANGELOG**
 - 2024-08-23 12:44 65a1751 **step: bump bgord/scripts**
+- 2024-08-23 12:06 d49dfb2 **build(deps): bump @bgord/frontend from `810210a` to `e90c43b`**
 - 2024-08-23 10:45 8ab681a **docs: generate CHANGELOG**
 - 2024-08-23 08:40 99101e0 **Merge pull request #100 from bgord/dependabot/npm_and_yarn/knip-5.27.3**
 - 2024-08-23 08:39 07a848e **Merge pull request #98 from bgord/dependabot/npm_and_yarn/husky-9.1.5**
