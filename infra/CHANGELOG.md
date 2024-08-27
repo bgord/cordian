@@ -1,6 +1,9 @@
 # Changelog
+- 2024-08-27 08:26 36fcfcd **Merge pull request #102 from bgord/dependabot/npm_and_yarn/knip-5.27.4**
+## 2024-08-27 08:26 
+- 2024-08-26 11:10 d1f1263 **build(deps-dev): bump knip from 5.27.3 to 5.27.4**
 - 2024-08-25 09:44 94484be **Merge pull request #101 from bgord/dependabot/npm_and_yarn/bgord/frontend-e90c43b**
-## 2024-08-25 09:44 
+- 2024-08-25 07:44 d912062 **docs: generate CHANGELOG**
 - 2024-08-24 17:04 9c0a4d5 **step: fix prepare script**
 - 2024-08-24 17:00 a591bef **step: bump bgord/scripts**
 - 2024-08-24 16:02 14ee6a5 **refactor: update husky git hooks**
