@@ -1,7 +1,10 @@
 # Changelog
+- 2024-08-27 10:53 5447a6c **step: bump bgord/scripts**
+- 2024-08-27 10:53 345f99e **refactor: change production alias**
+## 2024-08-27 10:53 
 - 2024-08-27 08:26 e19c62d **Merge pull request #103 from bgord/dependabot/npm_and_yarn/bgord/frontend-a8595e2**
 - 2024-08-27 08:26 36fcfcd **Merge pull request #102 from bgord/dependabot/npm_and_yarn/knip-5.27.4**
-## 2024-08-27 08:26 
+- 2024-08-27 06:27 4bc14fe **docs: generate CHANGELOG**
 - 2024-08-27 06:26 61dad7f **docs: generate CHANGELOG**
 - 2024-08-26 11:11 b562084 **build(deps): bump @bgord/frontend from `e90c43b` to `a8595e2`**
 - 2024-08-26 11:10 d1f1263 **build(deps-dev): bump knip from 5.27.3 to 5.27.4**
