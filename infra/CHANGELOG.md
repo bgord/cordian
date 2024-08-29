@@ -1,9 +1,14 @@
 # Changelog
+- 2024-08-29 09:03 1c1500d **Merge pull request #105 from bgord/dependabot/npm_and_yarn/commitlint/cli-19.4.1**
+- 2024-08-29 09:03 0f7b011 **Merge pull request #104 from bgord/dependabot/npm_and_yarn/bgord/frontend-cb936d5**
+## 2024-08-29 09:03 
+- 2024-08-28 11:46 115bd6b **build(deps-dev): bump @commitlint/cli from 19.4.0 to 19.4.1**
 - 2024-08-27 11:48 b5ef15c **refactor: production migration**
-## 2024-08-27 11:48 
 - 2024-08-27 11:47 c8f7ed5 **step: bump bgord/scripts**
+- 2024-08-27 11:23 c39e421 **build(deps): bump @bgord/frontend from `a8595e2` to `cb936d5`**
 - 2024-08-27 10:53 5447a6c **step: bump bgord/scripts**
 - 2024-08-27 10:53 345f99e **refactor: change production alias**
+- 2024-08-27 09:48 923032e **docs: generate CHANGELOG**
 - 2024-08-27 08:53 8144411 **docs: generate CHANGELOG**
 - 2024-08-27 08:26 e19c62d **Merge pull request #103 from bgord/dependabot/npm_and_yarn/bgord/frontend-a8595e2**
 - 2024-08-27 08:26 36fcfcd **Merge pull request #102 from bgord/dependabot/npm_and_yarn/knip-5.27.4**
