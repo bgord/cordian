@@ -1,7 +1,10 @@
 # Changelog
+- 2024-08-29 09:05 253e654 **Merge pull request #106 from bgord/dependabot/npm_and_yarn/commitlint/config-conventional-19.4.1**
+## 2024-08-29 09:05 
 - 2024-08-29 09:03 1c1500d **Merge pull request #105 from bgord/dependabot/npm_and_yarn/commitlint/cli-19.4.1**
 - 2024-08-29 09:03 0f7b011 **Merge pull request #104 from bgord/dependabot/npm_and_yarn/bgord/frontend-cb936d5**
-## 2024-08-29 09:03 
+- 2024-08-29 07:04 c3bb52d **docs: generate CHANGELOG**
+- 2024-08-29 07:04 bddb9bb **build(deps-dev): bump @commitlint/config-conventional**
 - 2024-08-28 11:46 115bd6b **build(deps-dev): bump @commitlint/cli from 19.4.0 to 19.4.1**
 - 2024-08-27 11:48 b5ef15c **refactor: production migration**
 - 2024-08-27 11:47 c8f7ed5 **step: bump bgord/scripts**
