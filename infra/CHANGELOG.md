@@ -1,6 +1,13 @@
 # Changelog
+- 2024-09-13 11:39 de8113e **Merge pull request #118 from bgord/dependabot/npm_and_yarn/commitlint/cli-19.5.0**
+- 2024-09-13 11:39 7702e45 **Merge pull request #120 from bgord/dependabot/npm_and_yarn/husky-9.1.6**
+- 2024-09-13 11:39 6113877 **Merge pull request #119 from bgord/dependabot/npm_and_yarn/bgord/frontend-8b69d3c**
+## 2024-09-13 11:39 
 - 2024-09-13 11:35 bcab9d9 **Merge pull request #117 from bgord/dependabot/npm_and_yarn/commitlint/config-conventional-19.5.0**
-## 2024-09-13 11:35 
+- 2024-09-13 09:37 71a3339 **build(deps-dev): bump @commitlint/cli from 19.4.1 to 19.5.0**
+- 2024-09-13 09:35 16dde41 **docs: generate CHANGELOG**
+- 2024-09-12 11:29 bf50314 **build(deps-dev): bump husky from 9.1.5 to 9.1.6**
+- 2024-09-11 12:09 c7164bf **build(deps): bump @bgord/frontend from `0af039a` to `8b69d3c`**
 - 2024-09-11 12:08 133716a **build(deps-dev): bump @commitlint/config-conventional**
 - 2024-09-11 08:34 950f259 **Merge pull request #116 from bgord/dependabot/npm_and_yarn/knip-5.30.1**
 - 2024-09-11 08:34 7c141dd **Merge pull request #115 from bgord/dependabot/npm_and_yarn/bgord/frontend-0af039a**
