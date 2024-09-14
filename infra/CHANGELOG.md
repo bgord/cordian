@@ -1,7 +1,9 @@
 # Changelog
+- 2024-09-14 16:40 436d091 **step: bump biome version**
+## 2024-09-14 16:40 
 - 2024-09-14 16:32 f7410c9 **step: bump bgord/scripts**
-## 2024-09-14 16:32 
 - 2024-09-14 15:31 5ca0a79 **step: remove standard version**
+- 2024-09-14 14:32 7672ea8 **docs: generate CHANGELOG**
 - 2024-09-14 14:19 f6a4620 **step: bump bgord/frontend**
 - 2024-09-14 14:13 44c3899 **step: bump bgord/scripts**
 - 2024-09-14 12:19 d6df5ea **docs: generate CHANGELOG**
