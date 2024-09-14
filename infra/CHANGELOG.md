@@ -1,10 +1,13 @@
 # Changelog
+- 2024-09-14 17:09 d8f30d3 **step: bump bgord/scripts**
+- 2024-09-14 17:09 3fbd88e **step: update gh workflow actions**
+## 2024-09-14 17:09 
 - 2024-09-14 17:04 3b3c106 **step: bump bgord/scripts**
 - 2024-09-14 17:04 0ed41b0 **step: update gh actions workflow versions**
-## 2024-09-14 17:04 
 - 2024-09-14 16:40 436d091 **step: bump biome version**
 - 2024-09-14 16:32 f7410c9 **step: bump bgord/scripts**
 - 2024-09-14 15:31 5ca0a79 **step: remove standard version**
+- 2024-09-14 15:05 e854728 **docs: generate CHANGELOG**
 - 2024-09-14 14:41 a09b6c6 **docs: generate CHANGELOG**
 - 2024-09-14 14:32 7672ea8 **docs: generate CHANGELOG**
 - 2024-09-14 14:19 f6a4620 **step: bump bgord/frontend**
