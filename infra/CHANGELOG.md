@@ -1,6 +1,8 @@
 # Changelog
+- 2024-09-14 14:19 f6a4620 **step: bump bgord/frontend**
+## 2024-09-14 14:19 
 - 2024-09-14 14:13 44c3899 **step: bump bgord/scripts**
-## 2024-09-14 14:13 
+- 2024-09-14 12:15 7ff40a7 **docs: generate CHANGELOG**
 - 2024-09-13 11:39 de8113e **Merge pull request #118 from bgord/dependabot/npm_and_yarn/commitlint/cli-19.5.0**
 - 2024-09-13 11:39 7702e45 **Merge pull request #120 from bgord/dependabot/npm_and_yarn/husky-9.1.6**
 - 2024-09-13 11:39 6113877 **Merge pull request #119 from bgord/dependabot/npm_and_yarn/bgord/frontend-8b69d3c**
