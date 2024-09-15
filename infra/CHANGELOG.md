@@ -1,12 +1,14 @@
 # Changelog
+- 2024-09-15 10:32 8a4fc53 **Merge pull request #121 from bgord/dependabot/npm_and_yarn/knip-5.30.2**
+## 2024-09-15 10:32 
 - 2024-09-14 17:09 d8f30d3 **step: bump bgord/scripts**
 - 2024-09-14 17:09 3fbd88e **step: update gh workflow actions**
-## 2024-09-14 17:09 
 - 2024-09-14 17:04 3b3c106 **step: bump bgord/scripts**
 - 2024-09-14 17:04 0ed41b0 **step: update gh actions workflow versions**
 - 2024-09-14 16:40 436d091 **step: bump biome version**
 - 2024-09-14 16:32 f7410c9 **step: bump bgord/scripts**
 - 2024-09-14 15:31 5ca0a79 **step: remove standard version**
+- 2024-09-14 15:09 45c8921 **docs: generate CHANGELOG**
 - 2024-09-14 15:05 e854728 **docs: generate CHANGELOG**
 - 2024-09-14 14:41 a09b6c6 **docs: generate CHANGELOG**
 - 2024-09-14 14:32 7672ea8 **docs: generate CHANGELOG**
@@ -14,6 +16,7 @@
 - 2024-09-14 14:13 44c3899 **step: bump bgord/scripts**
 - 2024-09-14 12:19 d6df5ea **docs: generate CHANGELOG**
 - 2024-09-14 12:15 7ff40a7 **docs: generate CHANGELOG**
+- 2024-09-13 11:41 d7e37b1 **build(deps-dev): bump knip from 5.30.1 to 5.30.2**
 - 2024-09-13 11:39 de8113e **Merge pull request #118 from bgord/dependabot/npm_and_yarn/commitlint/cli-19.5.0**
 - 2024-09-13 11:39 7702e45 **Merge pull request #120 from bgord/dependabot/npm_and_yarn/husky-9.1.6**
 - 2024-09-13 11:39 6113877 **Merge pull request #119 from bgord/dependabot/npm_and_yarn/bgord/frontend-8b69d3c**
