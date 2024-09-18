@@ -1,10 +1,12 @@
 # Changelog
+- 2024-09-18 11:24 b8db19c **fix: codedql workflow**
+## 2024-09-18 11:24 
 - 2024-09-17 10:41 efd18bb **Merge pull request #126 from bgord/dependabot/npm_and_yarn/preact-10.24.0**
 - 2024-09-17 10:41 8176987 **Merge pull request #128 from bgord/dependabot/npm_and_yarn/playwright/test-1.47.1**
 - 2024-09-17 10:41 3e64348 **Merge pull request #127 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.9.1**
 - 2024-09-17 10:41 30dce5b **Merge pull request #125 from bgord/dependabot/npm_and_yarn/bgord/frontend-7f025f5**
-## 2024-09-17 10:41 
 - 2024-09-17 10:40 aff9cc7 **Merge pull request #124 from bgord/dependabot/npm_and_yarn/postcss-8.4.47**
+- 2024-09-17 08:41 e04eead **docs: generate CHANGELOG**
 - 2024-09-16 11:15 f5ca605 **build(deps): bump @bgord/frontend from `641a0df` to `7f025f5`**
 - 2024-09-16 11:15 b2d7180 **build(deps-dev): bump postcss from 8.4.45 to 8.4.47**
 - 2024-09-16 11:15 aa8e7c7 **build(deps-dev): bump @playwright/test from 1.47.0 to 1.47.1**
@@ -12,6 +14,7 @@
 - 2024-09-16 11:15 2e63fce **build(deps-dev): bump @biomejs/biome from 1.9.0 to 1.9.1**
 - 2024-09-15 10:32 8a4fc53 **Merge pull request #121 from bgord/dependabot/npm_and_yarn/knip-5.30.2**
 - 2024-09-15 08:32 8aa626f **docs: generate CHANGELOG**
+- 2024-09-14 17:28 7a22b50 **step: bump bgord/scripts**
 - 2024-09-14 17:09 d8f30d3 **step: bump bgord/scripts**
 - 2024-09-14 17:09 3fbd88e **step: update gh workflow actions**
 - 2024-09-14 17:04 3b3c106 **step: bump bgord/scripts**
