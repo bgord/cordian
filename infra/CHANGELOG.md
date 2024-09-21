@@ -1,8 +1,13 @@
 # Changelog
+- 2024-09-21 16:16 e84bce7 **Merge pull request #133 from bgord/dependabot/npm_and_yarn/bgord/frontend-d2efd09**
+- 2024-09-21 16:16 6ddb88b **Merge pull request #134 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.9.2**
+## 2024-09-21 16:16 
+- 2024-09-20 11:28 f87b3ea **build(deps-dev): bump @biomejs/biome from 1.9.1 to 1.9.2**
+- 2024-09-19 11:23 360e9c8 **build(deps): bump @bgord/frontend from `dd6841e` to `d2efd09`**
 - 2024-09-19 11:18 f405045 **Merge pull request #131 from bgord/dependabot/npm_and_yarn/bgord/frontend-dd6841e**
 - 2024-09-19 11:18 51f515c **Merge pull request #130 from bgord/dependabot/npm_and_yarn/cspell-8.14.4**
 - 2024-09-19 11:18 08bcc18 **Merge pull request #132 from bgord/dependabot/npm_and_yarn/bgord/design-0.28.0**
-## 2024-09-19 11:18 
+- 2024-09-19 09:18 0663108 **docs: generate CHANGELOG**
 - 2024-09-18 11:24 b8db19c **fix: codedql workflow**
 - 2024-09-18 11:16 c12e5ef **build(deps): bump @bgord/design from 0.27.82 to 0.28.0**
 - 2024-09-18 11:16 9f7b751 **build(deps-dev): bump cspell from 8.14.2 to 8.14.4**
