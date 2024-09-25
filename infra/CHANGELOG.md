@@ -1,8 +1,11 @@
 # Changelog
+- 2024-09-25 09:58 dc4957f **Merge pull request #137 from bgord/dependabot/npm_and_yarn/bgord/frontend-8ed61fa**
+## 2024-09-25 09:58 
 - 2024-09-25 09:57 9c9b196 **Merge pull request #135 from bgord/dependabot/npm_and_yarn/esbuild-0.24.0**
 - 2024-09-25 09:57 1c85f08 **Merge pull request #136 from bgord/dependabot/npm_and_yarn/knip-5.30.5**
-## 2024-09-25 09:57 
+- 2024-09-25 07:57 8ac91f9 **docs: generate CHANGELOG**
 - 2024-09-25 07:57 7f2218a **docs: generate CHANGELOG**
+- 2024-09-23 11:40 0a1ffa9 **build(deps): bump @bgord/frontend from `d2efd09` to `8ed61fa`**
 - 2024-09-23 11:39 7e839ea **build(deps-dev): bump knip from 5.30.2 to 5.30.5**
 - 2024-09-23 11:39 6186318 **build(deps-dev): bump esbuild from 0.23.1 to 0.24.0**
 - 2024-09-21 16:16 e84bce7 **Merge pull request #133 from bgord/dependabot/npm_and_yarn/bgord/frontend-d2efd09**
