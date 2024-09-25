@@ -1,7 +1,10 @@
 # Changelog
+- 2024-09-25 09:57 9c9b196 **Merge pull request #135 from bgord/dependabot/npm_and_yarn/esbuild-0.24.0**
+## 2024-09-25 09:57 
+- 2024-09-23 11:39 6186318 **build(deps-dev): bump esbuild from 0.23.1 to 0.24.0**
 - 2024-09-21 16:16 e84bce7 **Merge pull request #133 from bgord/dependabot/npm_and_yarn/bgord/frontend-d2efd09**
 - 2024-09-21 16:16 6ddb88b **Merge pull request #134 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.9.2**
-## 2024-09-21 16:16 
+- 2024-09-21 14:16 9dcec0a **docs: generate CHANGELOG**
 - 2024-09-20 11:28 f87b3ea **build(deps-dev): bump @biomejs/biome from 1.9.1 to 1.9.2**
 - 2024-09-19 11:23 360e9c8 **build(deps): bump @bgord/frontend from `dd6841e` to `d2efd09`**
 - 2024-09-19 11:18 f405045 **Merge pull request #131 from bgord/dependabot/npm_and_yarn/bgord/frontend-dd6841e**
