@@ -1,6 +1,9 @@
 # Changelog
 - 2024-09-25 09:57 9c9b196 **Merge pull request #135 from bgord/dependabot/npm_and_yarn/esbuild-0.24.0**
+- 2024-09-25 09:57 1c85f08 **Merge pull request #136 from bgord/dependabot/npm_and_yarn/knip-5.30.5**
 ## 2024-09-25 09:57 
+- 2024-09-25 07:57 7f2218a **docs: generate CHANGELOG**
+- 2024-09-23 11:39 7e839ea **build(deps-dev): bump knip from 5.30.2 to 5.30.5**
 - 2024-09-23 11:39 6186318 **build(deps-dev): bump esbuild from 0.23.1 to 0.24.0**
 - 2024-09-21 16:16 e84bce7 **Merge pull request #133 from bgord/dependabot/npm_and_yarn/bgord/frontend-d2efd09**
 - 2024-09-21 16:16 6ddb88b **Merge pull request #134 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.9.2**
