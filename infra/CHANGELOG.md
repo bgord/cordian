@@ -1,7 +1,10 @@
 # Changelog
+- 2024-09-28 16:37 4924763 **Merge pull request #142 from bgord/dependabot/npm_and_yarn/knip-5.30.6**
+## 2024-09-28 16:37 
+- 2024-09-27 11:50 8843200 **build(deps-dev): bump knip from 5.30.5 to 5.30.6**
 - 2024-09-27 10:35 e944e82 **Merge pull request #140 from bgord/dependabot/npm_and_yarn/preact-10.24.1**
 - 2024-09-27 10:35 b39fe1b **Merge pull request #141 from bgord/dependabot/npm_and_yarn/bgord/frontend-632138b**
-## 2024-09-27 10:35 
+- 2024-09-27 08:35 0ff837a **docs: generate CHANGELOG**
 - 2024-09-25 11:40 940e045 **build(deps): bump @bgord/frontend from `8ed61fa` to `632138b`**
 - 2024-09-25 11:39 20c9d9c **build(deps): bump preact from 10.24.0 to 10.24.1**
 - 2024-09-25 09:59 60c3ac3 **Merge pull request #139 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.9**
