@@ -1,6 +1,11 @@
 # Changelog
+- 2024-10-03 00:01 6ee0495 **Merge pull request #143 from bgord/dependabot/npm_and_yarn/bgord/frontend-bed3a96**
+- 2024-10-03 00:01 26e6185 **Merge pull request #144 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.9.3**
+## 2024-10-03 00:01 
+- 2024-10-02 12:07 fd26636 **build(deps-dev): bump @biomejs/biome from 1.9.2 to 1.9.3**
+- 2024-10-01 11:51 9e1ad6a **build(deps): bump @bgord/frontend from `632138b` to `bed3a96`**
 - 2024-09-28 16:37 4924763 **Merge pull request #142 from bgord/dependabot/npm_and_yarn/knip-5.30.6**
-## 2024-09-28 16:37 
+- 2024-09-28 14:38 508d575 **docs: generate CHANGELOG**
 - 2024-09-27 11:50 8843200 **build(deps-dev): bump knip from 5.30.5 to 5.30.6**
 - 2024-09-27 10:35 e944e82 **Merge pull request #140 from bgord/dependabot/npm_and_yarn/preact-10.24.1**
 - 2024-09-27 10:35 b39fe1b **Merge pull request #141 from bgord/dependabot/npm_and_yarn/bgord/frontend-632138b**
