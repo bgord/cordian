@@ -1,7 +1,16 @@
 # Changelog
+- 2024-10-07 08:53 c50e18d **Merge pull request #145 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.10**
+- 2024-10-07 08:53 a92bbe8 **Merge pull request #148 from bgord/dependabot/npm_and_yarn/preact-10.24.2**
+- 2024-10-07 08:53 6b917eb **Merge pull request #146 from bgord/dependabot/npm_and_yarn/knip-5.31.0**
+- 2024-10-07 08:53 605f17e **Merge pull request #147 from bgord/dependabot/npm_and_yarn/bgord/frontend-c592b8e**
+## 2024-10-07 08:53 
+- 2024-10-04 11:22 6eefa7d **build(deps): bump preact from 10.24.1 to 10.24.2**
+- 2024-10-03 11:32 a694da1 **build(deps-dev): bump @types/lodash from 4.17.9 to 4.17.10**
+- 2024-10-03 11:32 90b2f2c **build(deps): bump @bgord/frontend from `bed3a96` to `c592b8e`**
+- 2024-10-03 11:32 5a73f54 **build(deps-dev): bump knip from 5.30.6 to 5.31.0**
 - 2024-10-03 00:01 6ee0495 **Merge pull request #143 from bgord/dependabot/npm_and_yarn/bgord/frontend-bed3a96**
 - 2024-10-03 00:01 26e6185 **Merge pull request #144 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.9.3**
-## 2024-10-03 00:01 
+- 2024-10-02 22:02 d2061af **docs: generate CHANGELOG**
 - 2024-10-02 12:07 fd26636 **build(deps-dev): bump @biomejs/biome from 1.9.2 to 1.9.3**
 - 2024-10-01 11:51 9e1ad6a **build(deps): bump @bgord/frontend from `632138b` to `bed3a96`**
 - 2024-09-28 16:37 4924763 **Merge pull request #142 from bgord/dependabot/npm_and_yarn/knip-5.30.6**
