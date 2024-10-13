@@ -1,7 +1,9 @@
 # Changelog
+- 2024-10-13 14:42 caa6b51 **Update production-project-build.sh**
+## 2024-10-13 14:42 
 - 2024-10-08 23:47 e6af350 **Merge pull request #151 from bgord/dependabot/npm_and_yarn/knip-5.33.1**
 - 2024-10-08 23:47 d79e6bd **Merge pull request #152 from bgord/dependabot/npm_and_yarn/bgord/frontend-29f3661**
-## 2024-10-08 23:47 
+- 2024-10-08 21:48 244e699 **docs: generate CHANGELOG**
 - 2024-10-08 11:43 e46dfc2 **build(deps): bump @bgord/frontend from `c592b8e` to `29f3661`**
 - 2024-10-08 11:43 beacae4 **build(deps-dev): bump knip from 5.31.0 to 5.33.1**
 - 2024-10-07 08:53 c50e18d **Merge pull request #145 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.10**
