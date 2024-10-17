@@ -1,9 +1,16 @@
 # Changelog
+- 2024-10-17 08:10 ed637f1 **Merge pull request #161 from bgord/dependabot/npm_and_yarn/serve-14.2.4**
+- 2024-10-17 08:10 d2d76ec **Merge pull request #160 from bgord/dependabot/npm_and_yarn/playwright/test-1.48.1**
+- 2024-10-17 08:10 9010094 **Merge pull request #159 from bgord/dependabot/npm_and_yarn/bgord/frontend-c267109**
+## 2024-10-17 08:10 
+- 2024-10-16 11:22 1ace424 **build(deps-dev): bump @playwright/test from 1.48.0 to 1.48.1**
+- 2024-10-16 11:22 0de6154 **build(deps-dev): bump serve from 14.2.3 to 14.2.4**
+- 2024-10-16 11:22 006cdad **build(deps): bump @bgord/frontend from `29f3661` to `c267109`**
 - 2024-10-15 17:39 13058a4 **Merge pull request #158 from bgord/dependabot/npm_and_yarn/cspell-8.15.2**
-## 2024-10-15 17:39 
 - 2024-10-15 17:38 eaa9c29 **Merge pull request #155 from bgord/dependabot/npm_and_yarn/knip-5.33.3**
 - 2024-10-15 17:38 342bbc1 **Merge pull request #157 from bgord/dependabot/npm_and_yarn/preact-10.24.3**
 - 2024-10-15 17:38 177f850 **Merge pull request #154 from bgord/dependabot/npm_and_yarn/playwright/test-1.48.0**
+- 2024-10-15 15:39 8760033 **docs: generate CHANGELOG**
 - 2024-10-14 11:52 f6b94ba **build(deps-dev): bump cspell from 8.14.4 to 8.15.2**
 - 2024-10-14 11:52 769b710 **build(deps): bump preact from 10.24.2 to 10.24.3**
 - 2024-10-13 14:42 caa6b51 **Update production-project-build.sh**
