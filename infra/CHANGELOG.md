@@ -1,8 +1,11 @@
 # Changelog
+- 2024-10-25 10:00 8088a37 **Merge pull request #167 from bgord/dependabot/npm_and_yarn/bgord/frontend-ad59933**
+## 2024-10-25 10:00 
+- 2024-10-23 11:58 f897db4 **build(deps): bump @bgord/frontend from `c267109` to `ad59933`**
 - 2024-10-19 15:48 f1f17a9 **Merge pull request #165 from bgord/dependabot/npm_and_yarn/biomejs/biome-1.9.4**
 - 2024-10-19 15:48 5f4d99c **Merge pull request #166 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.12**
-## 2024-10-19 15:48 
 - 2024-10-19 15:45 71e5444 **Merge pull request #163 from bgord/dependabot/npm_and_yarn/cspell-8.15.4**
+- 2024-10-19 13:49 f9ea7f2 **docs: generate CHANGELOG**
 - 2024-10-19 13:46 19ad7c4 **build(deps-dev): bump @types/lodash from 4.17.10 to 4.17.12**
 - 2024-10-19 13:45 a39e989 **docs: generate CHANGELOG**
 - 2024-10-18 11:39 5fa44fd **build(deps-dev): bump @biomejs/biome from 1.9.3 to 1.9.4**
