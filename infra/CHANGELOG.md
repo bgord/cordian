@@ -1,6 +1,11 @@
 # Changelog
+- 2024-10-29 08:02 db5e303 **Merge pull request #170 from bgord/dependabot/npm_and_yarn/knip-5.34.1**
+- 2024-10-29 08:02 cac0d61 **Merge pull request #171 from bgord/dependabot/npm_and_yarn/playwright/test-1.48.2**
+## 2024-10-29 08:02 
+- 2024-10-28 11:20 ded64b6 **build(deps-dev): bump @playwright/test from 1.48.1 to 1.48.2**
+- 2024-10-28 11:20 9bc11d5 **build(deps-dev): bump knip from 5.34.0 to 5.34.1**
 - 2024-10-27 14:46 57a411b **Merge pull request #169 from bgord/dependabot/npm_and_yarn/bgord/frontend-1d04099**
-## 2024-10-27 14:46 
+- 2024-10-27 13:46 880133d **docs: generate CHANGELOG**
 - 2024-10-25 11:23 e7962bc **build(deps): bump @bgord/frontend from `ad59933` to `1d04099`**
 - 2024-10-25 10:01 37adbaa **Merge pull request #168 from bgord/dependabot/npm_and_yarn/knip-5.34.0**
 - 2024-10-25 10:00 8088a37 **Merge pull request #167 from bgord/dependabot/npm_and_yarn/bgord/frontend-ad59933**
