@@ -1,8 +1,13 @@
 # Changelog
+- 2024-11-04 08:05 650ae8e **Merge pull request #179 from bgord/dependabot/npm_and_yarn/knip-5.36.0**
+- 2024-11-04 08:05 45d6348 **Merge pull request #176 from bgord/dependabot/npm_and_yarn/cspell-8.15.5**
+## 2024-11-04 08:05 
+- 2024-11-01 11:46 55c0f3c **build(deps-dev): bump knip from 5.34.3 to 5.36.0**
+- 2024-10-31 11:48 ee394ec **build(deps-dev): bump cspell from 8.15.4 to 8.15.5**
 - 2024-10-31 08:56 ee03814 **Merge pull request #173 from bgord/dependabot/npm_and_yarn/bgord/frontend-8192c70**
 - 2024-10-31 08:56 3213ee0 **Merge pull request #174 from bgord/dependabot/npm_and_yarn/knip-5.34.3**
-## 2024-10-31 08:56 
 - 2024-10-31 07:56 e2d811e **docs: generate CHANGELOG**
+- 2024-10-31 07:56 3ca252a **docs: generate CHANGELOG**
 - 2024-10-30 12:08 b7c5b99 **build(deps-dev): bump knip from 5.34.1 to 5.34.3**
 - 2024-10-29 11:26 cbfba9a **build(deps): bump @bgord/frontend from `1d04099` to `8192c70`**
 - 2024-10-29 08:02 db5e303 **Merge pull request #170 from bgord/dependabot/npm_and_yarn/knip-5.34.1**
