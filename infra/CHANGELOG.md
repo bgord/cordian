@@ -1,8 +1,13 @@
 # Changelog
+- 2024-11-08 08:23 81ccccf **Merge pull request #183 from bgord/dependabot/npm_and_yarn/knip-5.36.3**
+- 2024-11-08 08:23 0ad310e **Merge pull request #184 from bgord/dependabot/npm_and_yarn/cspell-8.16.0**
+## 2024-11-08 08:23 
+- 2024-11-07 11:12 8354046 **build(deps-dev): bump cspell from 8.15.5 to 8.16.0**
+- 2024-11-06 12:03 aff4f4e **build(deps-dev): bump knip from 5.36.0 to 5.36.3**
 - 2024-11-04 08:07 cc1dbdc **Merge pull request #175 from bgord/dependabot/npm_and_yarn/types/lodash-4.17.13**
-## 2024-11-04 08:07 
 - 2024-11-04 08:05 650ae8e **Merge pull request #179 from bgord/dependabot/npm_and_yarn/knip-5.36.0**
 - 2024-11-04 08:05 45d6348 **Merge pull request #176 from bgord/dependabot/npm_and_yarn/cspell-8.15.5**
+- 2024-11-04 07:07 ab9bd71 **docs: generate CHANGELOG**
 - 2024-11-04 07:06 ea162e7 **build(deps-dev): bump @types/lodash from 4.17.12 to 4.17.13**
 - 2024-11-04 07:05 a8c83fc **docs: generate CHANGELOG**
 - 2024-11-01 11:46 55c0f3c **build(deps-dev): bump knip from 5.34.3 to 5.36.0**
