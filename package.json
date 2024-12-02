@@ -33,7 +33,7 @@
     "@bgord/design": "0.28.0",
     "@bgord/frontend": "github:bgord/bgord-frontend",
     "lodash": "4.17.21",
-    "preact": "10.24.3",
+    "preact": "10.25.1",
     "react": "npm:@preact/compat@17.1.2",
     "react-dom": "npm:@preact/compat@17.1.2"
   }
